@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /journal/moon
+permalink: /journal/moon/
 title: moon journal
 menu: journal
 emoji: 🌙
