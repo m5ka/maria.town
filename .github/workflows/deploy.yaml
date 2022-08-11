@@ -21,11 +21,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Build static site
-      uses: helaili/jekyll-action@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        build_only: true
-        build_dir: _site
+      uses: jerryjvl/jekyll-build-action@v1
     - name: Deploy to neocities
       uses: bcomnes/deploy-to-neocities@v1
       with:
