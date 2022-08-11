@@ -73,6 +73,18 @@
                                     {% endif %}
                                 {% endfor %}
                             </ul>
+                            <p><i class="emoji" aria-hidden="true">🥰</i> lipu pona</p>
+                            <ul>
+                                {% for page in site.pages %}
+                                    {% if page.menu == "toki pona" %}
+                                        <li>
+                                            {% if page.emoji %}
+                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
                         </div>
                     </div>
                 </nav>

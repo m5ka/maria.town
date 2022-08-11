@@ -7,9 +7,9 @@ menu: pages
 ---
 i make languages (known as [conlangs](https://en.wikipedia.org/wiki/Constructed_language)) and often little counterpart lands for them to live in
 
-* [vedian](#)
-* [vislandic](#)
-* [zadmah](#)
+* [vedian]({% link _pages/language/vedian.md %})
+* [vislandic]({% link _pages/language/vislandic.md %})
+* [zadmah]({% link _pages/language/zadmah.md %})
 
 ---
 
@@ -17,7 +17,7 @@ if you were expecting languages that _aren't_ made up then sorry! i won't disapp
 
 ## know
 * english
-* [toki pona](#)
+* [toki pona]({% link _pages/toki-pona.md %})
 * italiano (italian)
 * deutsch (german)
 
