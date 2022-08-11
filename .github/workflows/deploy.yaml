@@ -17,7 +17,7 @@ jobs:
     - name: Build static site
       uses: jerryjvl/jekyll-build-action@v1
     - name: Deploy to neocities
-      uses: bcomnes/deploy-to-neocities@v1
+      uses: jonchang/deploy-neocities@master
       with:
         key: ${{ secrets.NEOCITIES_API_KEY }}
         clean: true
