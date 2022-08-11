@@ -21,7 +21,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-gems-
     - name: Build static site
-      uses: helaili/jekyll-action@2.0.5
+      uses: helaili/jekyll-build@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
         build_only: true
