@@ -1,0 +1,40 @@
+/* background colours */
+$bg-body: #1c3337
+$bg-selection: #60977d
+$bg-code: #152628
+
+/* foreground colours */
+$fg-body: #ffffff
+$fg-footer: #bde8e0
+$fg-heading: #96d1a0
+$fg-link: #83cece
+$fg-link-hover: #b1f5f5
+$fg-subtle: #8ec0b9
+$fg-bullet: #ddaeda
+$fg-caption: #c0e5e0
+$fg-caption-icon: #cec986
+$fg-code: #dea5e3
+
+/* gradients */
+$gradient-blurple-fallback: #459d99
+$gradient-blurple: linear-gradient(90deg, rgba(69,157,153,1) 0%, rgba(117,80,156,1) 100%)
+
+/* cursors */
+$cursor-pot: url('../cursors/pot.cur'), auto
+
+/* typography */
+$font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+$font-monospace: monospace
+$font-weight-strong: 600
+
+/* responsive mixins */
+@mixin desktop
+    @media (min-width: 768px)
+        @content
+
+*, *::after, *::before
+    box-sizing: border-box
+
+::selection
+    background: $bg-selection
+    color: white

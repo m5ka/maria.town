@@ -1,0 +1,30 @@
+.centered
+    text-align: center
+
+    h1,
+    h2,
+    h3,
+    h4
+        margin: 0 auto
+
+    hr
+        margin-left: auto
+        margin-right: auto
+
+.two-col-centered
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    column-gap: .5rem
+    justify-content: center
+    width: fit-content
+    margin: .5em auto
+
+.badge-grid
+    display: grid
+    width: fit-content
+    grid-template-columns: repeat(3, 1fr)
+    row-gap: .25rem
+    column-gap: .5rem
+
+    @include desktop
+        grid-template-columns: repeat(4, 1fr)

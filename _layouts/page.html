@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<header>
+    {% if page.backlinks %}
+    <nav class="backlinks">
+        <ul>
+            {% for backlink in page.backlinks %}
+                <li><a href="{% link backlink.url %}">{{ backlink.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
+    {% endif %}
+    <h1>{{ page.title }}{% if page.emoji %} <i class="emoji" aria-hidden="true">{{ page.emoji }}</i>{% endif %}</h1>
+</header>
+{{ content }}

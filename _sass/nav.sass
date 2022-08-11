@@ -1,0 +1,49 @@
+.content > nav
+    .collapsible
+        .collapse-button
+            position: relative
+
+            @include desktop
+                display: none
+
+            &::before
+                content: none
+            
+            &::after
+                content: "▼"
+                position: absolute
+                right: -.875rem
+                bottom: -4px
+                font-size: 10pt
+                color: $fg-bullet
+
+        .collapse
+            display: none
+
+            @include desktop
+                display: block
+
+            p
+                margin: 1rem 0 .5rem 0
+                color: $fg-subtle
+
+            ul
+                li
+                    padding-left: 1.125rem
+                    position: relative
+
+                    &::before
+                        content: "✧"
+                        color: $fg-bullet
+                        position: absolute
+                        left: 0
+                    
+                    + li
+                        margin-top: .25rem
+        
+        &.show
+            .collapse-button::after
+                content: "▲"
+
+            .collapse
+                display: block

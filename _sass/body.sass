@@ -1,0 +1,64 @@
+html
+    cursor: $cursor-pot
+
+body
+    color: $fg-body
+    line-height: 1.5rem
+    font-family: $font-body
+    font-size: 11pt
+    background: url('../images/rocks.png') repeat fixed
+
+    @include desktop
+        margin: 3rem auto 2rem auto
+        padding: 0
+
+    .container
+        max-width: 668px
+        padding: 1rem 1.5rem
+        background: $bg-body
+        margin: 0 auto
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.8)
+        position: relative
+
+        @include desktop
+            border-radius: 6px
+
+        &::before, &::after
+            content: ""
+            display: block
+            position: absolute
+            width: 12px
+            height: 12px
+            border-radius: 50%
+
+        &::before
+            top: 12px
+            right: 12px
+            background: #bb5a5a
+        
+        &::after
+            top: 12px
+            right: 32px
+            background: #d2be82
+
+        .content
+            display: flex
+            flex-flow: column nowrap
+
+            > nav
+                order: 1
+
+            > main
+                margin-top: 1rem
+                order: 2
+            
+            @include desktop
+                display: grid
+                grid-template-columns: 1fr 148px
+                column-gap: 2rem
+
+                > nav
+                    order: 2
+
+                > main
+                    order: 1

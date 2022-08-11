@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<header>
+    <nav class="backlinks">
+        <ul>
+            <li><a href="{% link _pages/journal/sun.md %}">sun journal</a></li>
+        </ul>
+    </nav>
+</header>
+<article class="h-entry">
+    <h1 class="p-name journal-title">{{ page.title }}{% if page.emoji %} <i class="emoji" aria-hidden="true">{{ page.emoji }}</i>{% endif %}</h1>
+    <p>
+        <a class="u-url" href="{{ page.url }}">
+            <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d %b %Y" | downcase }}</time>
+        </a>
+    </p>
+    <div class="e-content">
+        {{ content }}
+    </div>
+</article>
+<hr>
+<p>comment with a <a href="https://webmentions.neocities.org" target="_blank" rel="noreferrer noopener">webmention</a></p>

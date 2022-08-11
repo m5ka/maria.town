@@ -1,0 +1,67 @@
+main
+    ul li
+        padding-left: 1.25rem
+        position: relative
+
+        &::before
+            content: "✧ "
+            color: $fg-bullet
+            position: absolute
+            left: 0
+        
+        > ul
+            margin-top: .25em
+        
+        &:not(:last-child)
+            margin-bottom: .25em
+    
+    blockquote,
+    ul,
+    dl,
+    #statuscafe
+        margin-bottom: .75em
+
+    blockquote,
+    figure figcaption,
+    #statuscafe
+        margin-left: 1.25em
+        position: relative
+        color: $fg-caption
+
+        &::before
+            content: "✎ "
+            position: absolute
+            left: -1.2em
+            color: $fg-caption-icon
+    
+    figure
+        max-width: 100%
+        width: fit-content
+        border: 4px double #415855
+        padding: .5rem
+        margin: 1rem auto 1.5rem auto
+
+        img
+            max-width: 100%
+    
+    hr
+        display: block
+        border-color: #3e605a
+        border-style: double
+        border-width: 3px 0 0 0
+        margin: 1.35rem 0 1.125rem
+
+    dl
+        display: grid
+        grid-template-columns: auto 1fr
+        column-gap: 1em
+
+        dt
+            text-align: right
+            color: $fg-subtle
+
+            &::after
+                content: ":"
+    
+    img.image-filter
+        filter: grayscale(100%) brightness(80%) sepia(100%) hue-rotate(100deg)

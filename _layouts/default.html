@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>✧･{% if page.title %}{{ page.title }} ─ {% endif %}marzka･✧</title>
+        <meta name="theme-color" content="#224042">
+        <meta name="description" content="marzka · web developer from the uk">
+        <meta name="author" content="marzka">
+        <meta property="og:site_name" content="marzka.cafe 🌿">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}marzka{% endif %}">
+        <meta property="og:image" content="{{ "/assets/images/leah.png" | absolute_url }}">
+        <meta property="og:url" content="{{ page.url | absolute_url }}">
+        <link rel="canonical" content="{{ page.url | absolute_url }}">
+        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" type="text/css">
+        <link rel="shortcut icon" href="{{ "/assets/images/herb.png" | relative_url }}" type="image/png">
+        {% for script in page.scripts %}
+        <script src="{{ script | relative_url }}" type="text/javascript"></script>
+        {% endfor %}
+        <script src="{{ "/assets/js/collapsible.js" | relative_url }}" type="text/javascript"></script>
+    </head>
+    <body data-ssml-voice-gender="female">
+        <div class="container">
+            <header>
+                <div class="h-card brand">
+                    <img src="{{ "/assets/images/leah.png" | relative_url }}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
+                    <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
+                </div>
+            </header>
+            <div class="content">
+                <main>
+                    {{ content }}
+                </main>
+                <nav>
+                    <div class="collapsible">
+                        <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
+                        <div class="collapse">
+                            <p><i class="emoji" aria-hidden="true">🧩</i> pages</p>
+                            <ul>
+                                {% for page in site.pages %}
+                                    {% if page.menu == "pages" %}
+                                        <li>
+                                            {% if page.emoji %}
+                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                            <p><i class="emoji" aria-hidden="true">📗</i> journal</p>
+                            <ul>
+                                {% for page in site.pages %}
+                                    {% if page.menu == "journal" %}
+                                        <li>
+                                            {% if page.emoji %}
+                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                            <p><i class="emoji" aria-hidden="true">✈️</i> meta</p>
+                            <ul>
+                                {% for page in site.pages %}
+                                    {% if page.menu == "meta" %}
+                                        <li>
+                                            {% if page.emoji %}
+                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <footer>
+                made by marzka ♥
+                <a href="https://www.buymeacoffee.com/marzka" target="_blank" rel="nofollow noreferrer noopener">buy me a coffee</a> ·
+                <a href="{{ "/help" | relative_url }}">help</a>
+            </footer>
+        </div>
+    </body>
+</html>

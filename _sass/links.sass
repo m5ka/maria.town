@@ -1,0 +1,45 @@
+a
+    text-decoration: none
+    color: $fg-link
+    transition: color .2s ease-in-out
+    position: relative
+    cursor: $cursor-pot
+
+    &[href^="http://"]:not([href^="http://marzka.cafe"]):not(.noext)::after,
+    &[href^="https://"]:not([href^="https://marzka.cafe"]):not(.noext)::after,
+    &[href^="//"]:not([href^="//marzka.cafe"]):not(.noext)::after
+        content: ""
+        display: inline-block
+        background: url('../images/ext.svg') bottom right no-repeat
+        background-size: .875em
+        width: 1em
+        height: 1em
+    
+    &::before
+        content: ""
+        width: 0
+        transition: width .2s ease-in-out
+        height: 2px
+        position: absolute
+        bottom: -3px
+        left: 50%
+        transform: translateX(-50%)
+        background: $gradient-blurple-fallback
+        background: $gradient-blurple
+    
+    &:hover::before,
+    &:focus::before
+        width: 100%
+
+    &:hover
+        color: $fg-link-hover
+    
+    &:focus
+        outline: none
+
+    &.subtle-link
+        text-decoration: none
+        color: currentColor
+
+i.emoji + a
+        margin-left: .2em
