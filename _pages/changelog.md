@@ -12,7 +12,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-08-11
 * completely migrated and rewrote the site!
-    * now using [jekyll](jekyllrb.com/) to generate a static site
+    * now using [jekyll](https://jekyllrb.com/) to generate a static site
     * now hosting via neocities because cute community
 </article>
 
