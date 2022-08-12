@@ -3,7 +3,6 @@ layout: page
 title: food
 emoji: 🥦
 permalink: /food/
-menu: pages
 ---
 my belly thinks food is great and so do i.
 

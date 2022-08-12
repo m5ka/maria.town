@@ -1,7 +1,7 @@
 ---
 layout: page
 title: music
-emoji: 🎷
+emoji: 🎶
 permalink: /music/
 menu: pages
 ---
