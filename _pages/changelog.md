@@ -10,6 +10,19 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-12
+* don't mind me, just having a spring clean!
+    * removed the right now, programming and mi seme pages
+    * moved <i class="emoji" aria-hidden="true">🍏</i>[food]({% link _pages/food.md %}) and <i class="emoji" aria-hidden="true">🚅</i>[trains]({% link _pages/shrines/trains.md %}) into <i class="emoji" aria-hidden="true">🍜</i>[shrines]({% link _pages/shrines.md %})
+    * moved <i class="emoji" aria-hidden="true">⏰</i>[time]({% link _pages/projects/time.md %}) into <i class="emoji" aria-hidden="true">🎷</i>[projects]({% link _pages/projects.md %})
+    * moved <i class="emoji" aria-hidden="true">🌱</i>[toki pona]({% link _pages/toki-pona.md %}) back into pages column
+* added a page about my conlang 🍑[caliprian]({% link _pages/conlangs/caliprian.md %})
+* split old magic page into <i class="emoji" aria-hidden="true">🌼</i>[nature]({% link _pages/magic/nature.md %}), <i class="emoji" aria-hidden="true">🕯️</i>[whisper]({% link _pages/magic/whisper.md %}) and <i class="emoji" aria-hidden="true">🪴</i>[wóð]({% link _pages/magic/wod.md %})
+* minor spacing changes in site layout
+* changed the site background image and window background colour (from `#1c3337` to `#1f2d39`)
+</article>
+
+<article markdown="1">
 ## 2022-08-11
 * completely migrated and rewrote the site!
     * now using [jekyll](https://jekyllrb.com/) to generate a static site
@@ -18,7 +31,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 
 <article markdown="1">
 ## 2022-08-06
-* completely rewrote the <i class="emoji" aria-hidden="true">🌿</i><a href="{% link _pages/magic.md %}">magic</a> page
+* completely rewrote the <i class="emoji" aria-hidden="true">🌿</i><a href="{% link _pages/magic/nature.md %}">magic</a> page
 </article>
 
 <article markdown="1">
@@ -64,7 +77,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 
 <article markdown="1">
 ## 2022-07-20
-* added toki pona info to [time]({% link _pages/time.md %})
+* added toki pona info to [time]({% link _pages/projects/time.md %})
 * added a link between [links]({% link _pages/links.md %}) and [friends]({% link _pages/friends.md %})
 </article>
 
