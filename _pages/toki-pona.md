@@ -3,7 +3,7 @@ layout: page
 title: toki pona
 emoji: 🌱
 permalink: /toki-pona/
-menu: toki pona
+menu: pages
 ---
 [toki pona](https://tokipona.org/) is a minimalist language made by jan Sonja in 2001.
 in theory there are only a base of 120 to 140 words but i'm a big fan of extending toki pona to the needs of whoever i'm communicating with, and so myself and others tend to use a wider base set of words.
