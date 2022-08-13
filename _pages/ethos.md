@@ -19,4 +19,4 @@ i'd highly recommend checking these projects out as they were big inspirations f
 * [yesterweb](https://yesterweb.org)
 * [indieweb](https://indieweb.org)
 
-i've also collected a few helpful <i class="emoji" aria-hidden="true">🔗</i>[links]({% link _pages/links.md %}) if you're thinking of getting into personal web things yourself but aren't sure where to start.
+i've also collected a few helpful 🔗[links]({% link _pages/links.md %}) if you're thinking of getting into personal web things yourself but aren't sure where to start.

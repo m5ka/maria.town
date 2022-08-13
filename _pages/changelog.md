@@ -11,18 +11,18 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 
 <article markdown="1">
 ## 2022-08-13
-* fleshed out <i class="emoji" aria-hidden="true">🦜</i>[conlangs]({% link _pages/conlangs.md %}), especially <i class="emoji" aria-hidden="true">🍵</i>[zadmáh]({% link _pages/conlangs/zadmah.md %})
+* fleshed out 🦜[conlangs]({% link _pages/conlangs.md %}), especially 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %})
 </article>
 
 <article markdown="1">
 ## 2022-08-12
 * don't mind me, just having a spring clean!
     * removed the right now, programming and mi seme pages
-    * moved <i class="emoji" aria-hidden="true">🍏</i>[food]({% link _pages/food.md %}) and <i class="emoji" aria-hidden="true">🚅</i>[trains]({% link _pages/shrines/trains.md %}) into <i class="emoji" aria-hidden="true">🍜</i>[shrines]({% link _pages/shrines.md %})
-    * moved <i class="emoji" aria-hidden="true">⏰</i>[time]({% link _pages/projects/time.md %}) into <i class="emoji" aria-hidden="true">🎷</i>[projects]({% link _pages/projects.md %})
-    * moved <i class="emoji" aria-hidden="true">🌱</i>[toki pona]({% link _pages/toki-pona.md %}) back into pages column
+    * moved 🍏[food]({% link _pages/food.md %}) and 🚅[trains]({% link _pages/shrines/trains.md %}) into 🍜[shrines]({% link _pages/shrines.md %})
+    * moved ⏰[time]({% link _pages/projects/time.md %}) into 🎷[projects]({% link _pages/projects.md %})
+    * moved 🌱[toki pona]({% link _pages/toki-pona.md %}) back into pages column
 * added a page about my conlang 🍑[caliprian]({% link _pages/conlangs/caliprian.md %})
-* split old magic page into <i class="emoji" aria-hidden="true">🌼</i>[nature]({% link _pages/magic/nature.md %}), <i class="emoji" aria-hidden="true">🕯️</i>[whisper]({% link _pages/magic/whisper.md %}) and <i class="emoji" aria-hidden="true">🪴</i>[wóð]({% link _pages/magic/wod.md %})
+* split old magic page into 🌼[nature]({% link _pages/magic/nature.md %}), 🕯️[whisper]({% link _pages/magic/whisper.md %}) and 🪴[wóð]({% link _pages/magic/wod.md %})
 * minor spacing changes in site layout
 * changed the site background image and window background colour (from `#1c3337` to `#1f2d39`)
 </article>
@@ -36,7 +36,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 
 <article markdown="1">
 ## 2022-08-06
-* completely rewrote the <i class="emoji" aria-hidden="true">🌿</i><a href="{% link _pages/magic/nature.md %}">magic</a> page
+* completely rewrote the 🌿<a href="{% link _pages/magic/nature.md %}">magic</a> page
 </article>
 
 <article markdown="1">
@@ -101,7 +101,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-07-13
 * added pages for <a href="/vislandic">vislandic</a> and <a href="/zadmah">zadmáh</a>
-* finally decided on how to format journals, making the <i class="emoji" aria-hidden="true">☀️</i><a href="/journal/sun">sun</a> and <i class="emoji" aria-hidden="true">🌙</i><a href="/journal/moon">moon</a> journals
+* finally decided on how to format journals, making the ☀️<a href="/journal/sun">sun</a> and 🌙<a href="/journal/moon">moon</a> journals
 * joined the yesterweb webring!
 </article>
 

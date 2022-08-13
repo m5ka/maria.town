@@ -25,6 +25,7 @@ permalink: /journal/sun/:year/:month/:title/
 plugins:
   - jekyll-coffeescript
   - jekyll-target-blank
+markdown: MarzkaMarkdown
 include:
   - _pages
 sass:
