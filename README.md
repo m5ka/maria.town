@@ -14,7 +14,7 @@ I wanted to retain the essence of the hand-written web but with the ease of writ
 ## Deploying
 I deploy the site to Neocities via the very useful [jekyll build action](https://github.com/jerryjvl/jekyll-build-action) and [deploy to neocities](https://github.com/jonchang/deploy-neocities) Github actions.
 
-You can find it online at [marzka.cafe](https://neocities.org/site/marzka) or on its [Neocities page](https://neocities.org/site/marzka).
+You can find it online at [marzka.cafe](https://marzka.cafe) or on its [Neocities page](https://neocities.org/site/marzka).
 
 ## FAQ
 ### Can I use your design/layout?
