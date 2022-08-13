@@ -15,17 +15,15 @@
         <meta property="og:url" content="{{ page.url | absolute_url }}">
         <link rel="canonical" content="{{ page.url | absolute_url }}">
         <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" type="text/css">
-        <link rel="shortcut icon" href="{{ "/assets/images/herb.png" | relative_url }}" type="image/png">
-        {% for script in page.scripts %}
-        <script src="{{ script | relative_url }}" type="text/javascript"></script>
-        {% endfor %}
+        <link rel="shortcut icon" href="{% link /assets/images/herb.png %}" type="image/png">{% for script in page.scripts %}
+        <script src="{{ script | relative_url }}" type="text/javascript"></script>{% endfor %}
         <script src="{{ "/assets/js/collapsible.js" | relative_url }}" type="text/javascript"></script>
     </head>
     <body data-ssml-voice-gender="female">
         <div class="container">
             <header>
                 <div class="h-card brand">
-                    <img src="{{ "/assets/images/leah.png" | relative_url }}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
+                    <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
                     <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
                 </div>
             </header>
@@ -38,52 +36,32 @@
                         <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
                         <div class="collapse">
                             <p><i class="emoji" aria-hidden="true">🧩</i> pages</p>
-                            <ul>
-                                {% for page in site.pages %}
-                                    {% if page.menu == "pages" %}
-                                        <li>
-                                            {% if page.emoji %}
-                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
+                            <ul>{% for page in site.pages %}{% if page.menu == "pages" %}
+                                <li>
+                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>{% endif %}{% endfor %}
                             </ul>
                             <p><i class="emoji" aria-hidden="true">🌿</i> magic</p>
-                            <ul>
-                                {% for page in site.pages %}
-                                    {% if page.menu == "magic" %}
-                                        <li>
-                                            {% if page.emoji %}
-                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
+                            <ul>{% for page in site.pages %}{% if page.menu == "magic" %}
+                                <li>
+                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>{% endif %}{% endfor %}
                             </ul>
                             <p><i class="emoji" aria-hidden="true">📗</i> journal</p>
-                            <ul>
-                                {% for page in site.pages %}
-                                    {% if page.menu == "journal" %}
-                                        <li>
-                                            {% if page.emoji %}
-                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
+                            <ul>{% for page in site.pages %}{% if page.menu == "journal" %}
+                                <li>
+                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>{% endif %}{% endfor %}
                             </ul>
                             <p><i class="emoji" aria-hidden="true">✈️</i> meta</p>
-                            <ul>
-                                {% for page in site.pages %}
-                                    {% if page.menu == "meta" %}
-                                        <li>
-                                            {% if page.emoji %}
-                                            <i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                            -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                        </li>
-                                    {% endif %}
-                                {% endfor %}
+                            <ul>{% for page in site.pages %}{% if page.menu == "meta" %}
+                                <li>
+                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                                </li>{% endif %}{% endfor %}
                             </ul>
                         </div>
                     </div>
@@ -91,8 +69,9 @@
             </div>
             <footer>
                 made by marzka ♥
-                <a href="https://www.buymeacoffee.com/marzka" target="_blank" rel="nofollow noreferrer noopener">buy me a coffee</a> ·
-                <a href="{{ "/help" | relative_url }}">help</a>
+                <a href="https://www.buymeacoffee.com/marzka">buy me a coffee</a> ·
+                <a href="https://github.com/marzusia/marzka.cafe">source code</a> ·
+                <a href="{% link _pages/help.md %}">help</a>
             </footer>
         </div>
     </body>
