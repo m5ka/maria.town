@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>✧･{% if page.title %}{{ page.title }} ─ {% endif %}marzka･✧</title>
+        <title>✧･{% if page.title and page.notitle != true %}{{ page.title }} ─ {% endif %}marzka･✧</title>
         <meta name="theme-color" content="#224042">
         <meta name="description" content="marzka · web developer from the uk">
         <meta name="author" content="marzka">
