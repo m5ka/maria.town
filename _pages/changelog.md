@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-13
+* fleshed out <i class="emoji" aria-hidden="true">🦜</i>[conlangs]({% link _pages/conlangs.md %}), especially <i class="emoji" aria-hidden="true">🍵</i>[zadmáh]({% link _pages/conlangs/zadmah.md %})
+</article>
+
+<article markdown="1">
 ## 2022-08-12
 * don't mind me, just having a spring clean!
     * removed the right now, programming and mi seme pages
