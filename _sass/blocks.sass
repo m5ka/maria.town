@@ -14,10 +14,11 @@ main
         
         &:not(:last-child)
             margin-bottom: .25em
-    
+
     blockquote,
     ul,
     dl,
+    pre,
     #statuscafe
         margin-bottom: .75em
 
@@ -41,8 +42,24 @@ main
         padding: .5rem
         margin: 1rem auto 1.5rem auto
 
+        figcaption
+            margin-top: .5em
+
         img
             max-width: 100%
+
+    pre
+        display: block
+        max-width: 100%
+        overflow-x: auto
+        background: $bg-code
+        border-radius: 4px
+        padding: .5em
+
+    .highlight pre,
+    .highlight code,
+    pre
+        background: $bg-code
     
     hr
         display: block
