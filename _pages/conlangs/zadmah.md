@@ -6,16 +6,13 @@ permalink: /conlangs/zadmah/
 ---
 **zadmáh** ("our language") is a small, a priori conlang of mine spoken by the fictitious **mazadmáh** ("speaking our language") people.
 
-mazadmáh culture is defined by a great respect for and reliance on the natural world, shaped by a tight-knit but ultimately hierarchical society.
-
 ## culture
-the most stark division in mazadmáh society is one of class, with the **šiťáh** (literally "those outside") unable to participate in government or military and often excluded from certain social events.
+mazadmáh culture is defined by a great respect for and reliance on the natural world, shaped by a tight-knit but ultimately hierarchical society with a strict relationship to the concept of taboo.
 
-there are many subdivisions within the šiťáh, such as the **díuinis** who derive their name from **díuinin**, the practice of taboo gender non-compliance in mazadmáh culture. most díuinis (literally "those who feminise") are raised masculine and of another class from birth but take on a feminine appearance and social role later on, thereby moving them into this class.
-
-the díuinis are strongly associated with gabláh, a form of ritual magic, and with duním, a regional bitter herb drunk as tea for its feminising properties.
-
-taboo, often described with the term **inóɣu** ("bitter"), is a very important aspect of mazadmáh culture, dictating a lot of what is acceptable within society.
+* <i class="emoji" aria-hidden="true">🫂</i>[akšóm]({% link _pages/conlangs/zadmah/aksom.md %}) ─ social classes
+* <i class="emoji" aria-hidden="true">⚧️</i>[díuinin]({% link _pages/conlangs/zadmah/diuinin.md %}) ─ gender non-compliance
+* <i class="emoji" aria-hidden="true">🍵</i>[duním]({% link _pages/conlangs/zadmah/dunim.md %}) ─ feminising regional herb
+* <i class="emoji" aria-hidden="true">🍃</i>[inóɣu]({% link _pages/conlangs/zadmah/inoghu.md %}) ─ social taboo
 
 ## language
 zadmáh words are derived via an expressive system of tri-consonantal roots and patterns. for example, the root z·r·k has a base meaning of "pain" or "hurt". From that we can derive words such as **zírrkuz** ("pain-relief herb"), **ázrik** ("she hurts, causes pain"), **zórak** ("she is in pain") and **zarkón** ("problem, issue").
