@@ -12,6 +12,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-08-13
 * fleshed out 🦜[conlangs]({% link _pages/conlangs.md %}), especially 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %})
+* removed 🎬️ media in anticipation of writing better media-related 🕯️[shrine]({% link _pages/shrines.md %}) pages
 </article>
 
 <article markdown="1">
