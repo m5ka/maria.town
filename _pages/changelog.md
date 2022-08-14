@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-14
+* renamed friends to 💚[people]({% link _pages/people.md %}) and added some cool badges from other people's sites
+</article>
+
+<article markdown="1">
 ## 2022-08-13
 * fleshed out 🦜[conlangs]({% link _pages/conlangs.md %}), especially 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %})
 * removed 🎬️ media in anticipation of writing better media-related 🕯️[shrine]({% link _pages/shrines.md %}) pages
@@ -86,7 +91,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-07-20
 * added toki pona info to [time]({% link _pages/projects/time.md %})
-* added a link between [links]({% link _pages/links.md %}) and [friends]({% link _pages/friends.md %})
+* added a link between [links]({% link _pages/links.md %}) and [people]({% link _pages/people.md %})
 </article>
 
 <article markdown="1">
