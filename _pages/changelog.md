@@ -13,7 +13,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 ## 2022-08-13
 * fleshed out 🦜[conlangs]({% link _pages/conlangs.md %}), especially 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %})
 * removed 🎬️ media in anticipation of writing better media-related 🕯️[shrine]({% link _pages/shrines.md %}) pages
-* minor style update
+* moved the menu into its own little static sidebar bit and made the window look more like a window 🪟
 * added a site 🏅[badge]({% link _pages/badge.md %})!
 </article>
 

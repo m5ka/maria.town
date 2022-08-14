@@ -21,63 +21,63 @@
     </head>
     <body data-ssml-voice-gender="female">
         <div class="container">
-            <header>
-                <div class="h-card brand">
-                    <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
-                    <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
-                </div>
-            </header>
-            <div class="content">
+            <div class="container-scroll">
+                <header>
+                    <div class="h-card brand">
+                        <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
+                        <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
+                    </div>
+                </header>
                 <main>
                     {{ content }}
                 </main>
-                <nav>
-                    <div class="collapsible">
-                        <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
-                        <div class="collapse">
-                            <p><i class="emoji" aria-hidden="true">🧩</i> pages</p>
-                            <ul>{% for page in site.pages %}{% if page.menu == "pages" %}
-                                <li>
-                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                </li>{% endif %}{% endfor %}
-                            </ul>
-                            <p><i class="emoji" aria-hidden="true">🌿</i> magic</p>
-                            <ul>{% for page in site.pages %}{% if page.menu == "magic" %}
-                                <li>
-                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                </li>{% endif %}{% endfor %}
-                            </ul>
-                            <p><i class="emoji" aria-hidden="true">📗</i> journal</p>
-                            <ul>{% for page in site.pages %}{% if page.menu == "journal" %}
-                                <li>
-                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                </li>{% endif %}{% endfor %}
-                            </ul>
-                            <p><i class="emoji" aria-hidden="true">✈️</i> meta</p>
-                            <ul>{% for page in site.pages %}{% if page.menu == "meta" %}
-                                <li>
-                                    {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
-                                    -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
-                                </li>{% endif %}{% endfor %}
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                <footer>
+                    <a href="{% link _pages/badge.md %}">
+                        <img src="{% link /assets/images/88x31/marzka_cafe_88x31.png %}" alt="marzka.cafe badge">
+                    </a>
+                    <span class="divider">♥</span>
+                    <a href="https://www.buymeacoffee.com/marzka">buy me a coffee</a>
+                    <span class="divider">/</span>
+                    <a href="https://github.com/marzusia/marzka.cafe">source code</a>
+                    <span class="divider">/</span>
+                    <a href="{% link _pages/help.md %}">help & contact</a>
+                </footer>
             </div>
-            <footer>
-                <a href="{% link _pages/badge.md %}">
-                    <img src="{% link /assets/images/88x31/marzka_cafe_88x31.png %}" alt="marzka.cafe badge">
-                </a>
-                <span class="divider">♥</span>
-                <a href="https://www.buymeacoffee.com/marzka">buy me a coffee</a>
-                <span class="divider">/</span>
-                <a href="https://github.com/marzusia/marzka.cafe">source code</a>
-                <span class="divider">/</span>
-                <a href="{% link _pages/help.md %}">help & contact</a>
-            </footer>
+            <nav>
+                <div class="collapsible">
+                    <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
+                    <div class="collapse">
+                        <p><i class="emoji" aria-hidden="true">🧩</i> pages</p>
+                        <ul>{% for page in site.pages %}{% if page.menu == "pages" %}
+                            <li>
+                                {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>{% endif %}{% endfor %}
+                        </ul>
+                        <p><i class="emoji" aria-hidden="true">🌿</i> magic</p>
+                        <ul>{% for page in site.pages %}{% if page.menu == "magic" %}
+                            <li>
+                                {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>{% endif %}{% endfor %}
+                        </ul>
+                        <p><i class="emoji" aria-hidden="true">📗</i> journal</p>
+                        <ul>{% for page in site.pages %}{% if page.menu == "journal" %}
+                            <li>
+                                {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>{% endif %}{% endfor %}
+                        </ul>
+                        <p><i class="emoji" aria-hidden="true">✈️</i> meta</p>
+                        <ul>{% for page in site.pages %}{% if page.menu == "meta" %}
+                            <li>
+                                {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+                                -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+                            </li>{% endif %}{% endfor %}
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </body>
 </html>

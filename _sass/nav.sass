@@ -1,4 +1,6 @@
-.content > nav
+.container > nav
+    font-size: 10pt
+
     .collapsible
         .collapse-button
             position: relative
@@ -19,13 +21,18 @@
 
         .collapse
             display: none
+            padding-top: 1em
 
             @include desktop
                 display: block
+                padding-top: 0
 
             p
-                margin: 1rem 0 .5rem 0
+                margin: .8rem 0 .25rem 0
                 color: $fg-subtle
+
+                &:first-child
+                    margin-top: 0
 
             ul
                 li
@@ -39,7 +46,7 @@
                         left: 0
                     
                     + li
-                        margin-top: .25rem
+                        margin-top: .15rem
         
         &.show
             .collapse-button::after
