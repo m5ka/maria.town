@@ -12,6 +12,8 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-08-14
 * renamed friends to 💚[people]({% link _pages/people.md %}) and added some cool badges from other people's sites
+* reworked the beginning of the 🏠️[homepage]({% link _pages/index.html %}) including a new page about my [name]({% link _pages/marzka.md %})
+* added a 📘[guestbook]({% link _pages/guestbook.md %})
 </article>
 
 <article markdown="1">
