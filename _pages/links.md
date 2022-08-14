@@ -7,7 +7,7 @@ menu: pages
 ---
 a little collection of links i've found over time! none of these are mine, they are just little places on the internet i have found that i've wanted to keep a bookmark of.
 
-i also have some links to sites made by my 💚<a href="/friends">friends</a> if you want to check those out.
+i also have some links to cool smallnet sites on my 💚<a href="{% link _pages/people.md %}">people</a> page if you want to check those out.
 
 ## music
 * [sampulator](http://sampulator.com/)
