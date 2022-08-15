@@ -6,6 +6,7 @@ notitle: true
 scripts:
 - "/assets/js/nowlistening.js"
 - "/assets/js/moon.js"
+- "/assets/js/status.js"
 ---
 <p>hey! i'm <a href="{% link _pages/marzka.md %}">marzka</a>, a web developer from the uk · i hope your day is going great and you enjoy browsing my little web nook! 💚</p>
 <p>if you do, think about signing my <i class="emoji" aria-hidden="true">📘</i><a href="{% link _pages/guestbook.md %}">guestbook</a>!</p>
@@ -21,7 +22,12 @@ scripts:
 <p>the moon is <strong id="moonName"></strong> at the moment · <span id="moonWisdom"></span></p>
 <hr>
 <h2>latest status &amp; song</h2>
-<script src="https://status.cafe/current-status.js?name=marzka"></script>
+<blockquote class="status-cafe-status">
+    <div class="status-meta">
+        <a class="status-username" href="https://status.cafe/users/marzka" target="_blank" rel="noreferrer noopener">marzka</a> <span class="status-emoji"></span> <span class="subtle status-time"></span>
+    </div>
+    <div class="status-content">...</div>
+</blockquote>
 <blockquote>
     <a href="#" id="nowlistening" target="_blank" rel="noreferrer noopener nofollow">...</a> <span class="subtle" id="nowlisteningdate"></span>
 </blockquote>
