@@ -31,5 +31,13 @@ myself and jan inwin frequently begrudge the lack of nuance in the toki pona wor
 i enjoy writing toki pona in a fairly loose and minimalist manner. some key points of my style:
 
 * less reliance on **pi** for bracketing in modifier chains
-* use of **o** to mark optative mood (syntactically identical to **li**)
+* use of **o** to mark optative mood (syntactically identical to **li**, except not ungrammatical with **mi** or **sina**)
 * use of <a href="/time">tenpo ko</a> for talking about absolute time
+
+## example
+> pilin sona ale la jan li sona ala·<br>
+> pilin sona ala la jan o sona ale·<br>
+> kiwen la jan li ante ala·<br>
+> poki la jan o lanpan ale·<br>
+> kiwen la weka li pakala lawa·<br>
+> poki la weka li suli kin
