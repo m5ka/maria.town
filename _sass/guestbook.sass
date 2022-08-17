@@ -1,0 +1,39 @@
+.guestbook
+    dl
+        row-gap: .25em
+
+        dt.required::after
+            content: "*"
+
+    input[type="text"],
+    textarea,
+    button
+        border-radius: 4px
+        border: none
+        outline: none
+        font-family: $font-body
+        font-size: 11pt
+        margin: 0
+
+    input[type="text"],
+    textarea
+        background: #94b9d8
+        color: #29323a
+        padding: .5em
+        width: 100%
+
+        &:focus
+            outline: 2px solid #4f8fc4
+    
+    textarea
+        min-height: 4em
+    
+    button
+        background: #96c5c1
+        color: #27302f
+        padding: .5em .75em
+        cursor: $cursor-pot
+        transition: transform .1s ease-in-out
+
+        &:active
+            transform: scale(95%)

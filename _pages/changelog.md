@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-17
+* finally added a form to the 📘[guestbook]({% link _pages/guestbook.md %}) so it properly works!
+</article>
+
+<article markdown="1">
 ## 2022-08-14
 * renamed friends to 💚[people]({% link _pages/people.md %}) and added some cool badges from other people's sites
 * reworked the beginning of the 🏠️[homepage]({% link _pages/index.html %}) including a new page about my [name]({% link _pages/marzka.md %})
