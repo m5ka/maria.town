@@ -1,9 +1,18 @@
-.guestbook
-    dl
-        row-gap: .25em
+form
+    display: grid
+    grid-template-columns: auto 1fr
+    align-items: center
+    column-gap: .5em
+    row-gap: .375em
+    margin-bottom: .75em
 
-        dt.required::after
+    label
+        text-align: right
+        color: $fg-subtle
+
+        &.required::after
             content: "*"
+            color: darken($fg-subtle, 20%)
 
     input[type="text"],
     textarea,
@@ -34,6 +43,7 @@
         padding: .5em .75em
         cursor: $cursor-pot
         transition: transform .1s ease-in-out
+        grid-column: 2
 
         &:active
             transform: scale(95%)

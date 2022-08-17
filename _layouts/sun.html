@@ -20,4 +20,25 @@ layout: default
     </div>
 </article>
 <hr>
-<p>comment with a <a href="https://webmentions.neocities.org" target="_blank" rel="noreferrer noopener">webmention</a></p>
+<h2>write a comment</h2>
+<form action="https://riku.miso.town/submit?user_id=13&label=marzka.cafe:comment:{{ page.date | date: "%Y-%m-%d-" | append: page.title | slugify | truncate: 30, "" }}" method="post">
+    <input type="hidden" name="redirect" value="{{ "/comment-sent/" | absolute_url }}">
+    <label class="required" for="name">name</label>
+    <input type="text" name="name" id="name" autocomplete="off" required>
+    <label for="website">website</label>
+    <input type="text" name="website" id="website" autocomplete="off">
+    <label class="required" for="message">message</label>
+    <textarea name="message" id="message" autocomplete="off" required></textarea>
+    <button type="submit">write! ✉️</button>
+</form>
+<p>alternatively, you can comment with a <a href="https://webmentions.neocities.org" target="_blank" rel="noreferrer noopener">webmention</a></p>
+{% if page.comments %}
+<h2>comments</h2>{% for comment in page.comments %}
+<blockquote>
+    {{ comment.message }}<br>
+    ─{% if comment.website %}<a href="{{ comment.website }}" target="_blank" rel="noreferrer noopener nofollow">{% else %}<em>{% endif %}
+        {{ comment.name }}
+    {% if comment.website %}</a>{% else %}</em>{% endif %}{% if comment.date %} ·
+    {{ comment.date | date: "%d %b %Y" | downcase }}{% endif %}
+</blockquote>
+{% endfor %}{% endif %}
