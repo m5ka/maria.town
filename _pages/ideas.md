@@ -18,3 +18,4 @@ if you ever see an idea disappear from here, check the 📜[changelog]({% link _
     * natasia demetriou
     * kath & kim
 * 🦜 in-site documentation on my conlangs
+* 💬 use riku to allow comments on my posts
