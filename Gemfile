@@ -14,7 +14,6 @@ gem "jekyll", "~> 4.2.2"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-coffeescript"
-  gem "jekyll-target-blank"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -35,3 +34,6 @@ gem "webrick", "~> 1.7"
 
 # Include for custom markdown converter
 gem "unicode-emoji"
+
+# Include for custom external link converter
+gem "nokogiri", "~> 1.10"

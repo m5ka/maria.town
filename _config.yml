@@ -24,7 +24,6 @@ url: "https://marzka.cafe" # the base hostname & protocol for your site, e.g. ht
 permalink: /journal/sun/:year/:month/:title/
 plugins:
   - jekyll-coffeescript
-  - jekyll-target-blank
 markdown: MarzkaMarkdown
 include:
   - _pages
