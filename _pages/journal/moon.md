@@ -8,6 +8,17 @@ emoji: 🌙
 # moon journal 🌙
 it's said that the moon will hear every quiet whisper·
 
+subscribe via [atom](https://journal.miso.town/atom?url=https://marzka.cafe/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
+
+<article markdown="1">
+## 2022-08-18 14:33· lake of kalandra 🕹️ {#article:2022-08-18-lake-of-kalandra}
+tomorrow is the start of the lake of kalandra league of [path of exile](https://www.pathofexile.com/) and i'm quite excited. it's one of the things me and my wife play together and we do it every league, so it becomes one of our favourite times in the calendar.
+
+as per tradition, i'll be playing an aurabot (meaning i just make big swirly patterns around myself that give my wife all the extra boosts and boons she needs to go mashing and smashing!)
+
+i really just can't wait. i've got some time off work and we'll be able to really say goodbye to the very stressful period we had a couple weeks back. everything's really looking up. 🥰
+</article>
+
 <article markdown="1">
 ## 2022-08-07 10:58· bloom 🌸 {#article:2022-08-07-bloom}
 after one of the most stressful periods i've felt this year, i've been struck with a sudden sense of realignment. now piecing myself together again, it seems i've reformed in some ways stronger than before and finally admitted to myself after some terrible experiences with controlling people in my life years ago that i may feel and believe as i truly do and not as i am wished to.
@@ -78,7 +89,5 @@ so let's see how this little journal goes. my shrine to her, our moon, with my f
 </article>
 
 ---
-
-subscribe via [atom](https://journal.miso.town/atom?url=https://marzka.cafe/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
 
 [![valid html journal]({% link /assets/images/html_journal_valid.png %}){:.image-filter}](https://journal.miso.town)

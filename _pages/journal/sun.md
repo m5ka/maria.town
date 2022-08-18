@@ -7,6 +7,8 @@ menu: journal
 ---
 the focus of the mighty sun illuminates each and every small nook·
 
+subscribe via [atom](https://blog.miso.town/atom?url=https://markza.cafe/journal/sun/) or read at the [neon kiosk](https://kiosk.nightfall.city/blogs.html)
+
 <ul markdown="0">
     {% for post in site.posts %}
         <li>
@@ -16,7 +18,5 @@ the focus of the mighty sun illuminates each and every small nook·
 </ul>
 
 ---
-
-subscribe via [atom](https://blog.miso.town/atom?url=https://markza.cafe/journal/sun/) or read at the [neon kiosk](https://kiosk.nightfall.city/blogs.html)
 
 [![valid html blog]({% link /assets/images/html_blog_valid.png %}){:.image-filter}](https://blog.miso.town/)
