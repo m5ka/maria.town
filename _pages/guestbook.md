@@ -20,6 +20,12 @@ sign the guestbook with the form below!
 </form>
 </div>
 
-## responses
+## entries
+> Awesome site! I really vibe with your nature page.<br>
+> <span class="subtle">_─[Rex](https://the64thsanctum.net/) • 17 aug 22_</span>
+
+> your site feel like cosy blanket :)<br>
+> <span class="subtle">_─patchworkofshadows • 17 aug 22_</span>
+
 > toki a! jan Kawa li lon! mi lukin e jan ala… ni la mi nanpa wan! o pona~<br>
-> _─jan Kawa • 15 aug 22_
+> <span class="subtle">_─jan Kawa • 15 aug 22_</span>
