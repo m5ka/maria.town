@@ -11,6 +11,15 @@ it's said that the moon will hear every quiet whisper·
 subscribe via [atom](https://journal.miso.town/atom?url=https://marzka.cafe/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
 
 <article markdown="1">
+## 2022-08-26 09:45· realignment 🪐 {#article:2022-08-26-realignment}
+so last i wrote in here i was going to play path of exile with my partner and it didn't quite work out. the league ended up very badly communicated and there were some changes that made it so we just had to give up the game for this league, which was really hard. it's been our way of connecting for a few years now, so it was quite a slap to have it suddenly not there after we were anticipating this league for so long and so excited.
+
+we're going to try out playing diablo iii today though to see how that is, so realigning to putting my excitement into that might work out and i hope it does. i love just getting to spend the time with my partner at the end of the day so i'm glad we managed to find something else to do together to spend the week.
+
+i offered to hréðe this morning, sort of the first time i've done it properly. i think it went well so i'm happy to explore where that goes.
+</article>
+
+<article markdown="1">
 ## 2022-08-18 14:33· lake of kalandra 🕹️ {#article:2022-08-18-lake-of-kalandra}
 tomorrow is the start of the lake of kalandra league of [path of exile](https://www.pathofexile.com/) and i'm quite excited. it's one of the things me and my wife play together and we do it every league, so it becomes one of our favourite times in the calendar.
 
