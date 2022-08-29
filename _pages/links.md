@@ -30,6 +30,7 @@ i also have some links to cool smallnet sites on my 💚<a href="{% link _pages/
 * [searchable index diachronica](https://chridd.nfshost.com/diachronica/)
 * [bosworth toller old english dictionary](https://bosworthtoller.com/)
 * [conlang bulletin board](https://cbbforum.com/)
+* [nimi ale pona (toki pona dictionary)](https://docs.google.com/spreadsheets/d/1t-pjAgZDyKPXcCRnEdATFQOxGbQFMjZm-8EvXiQd2Po/edit#gid=0)
 
 ## history & anthropology
 * [old english runes](https://runesoftheoerp.wordpress.com/)
