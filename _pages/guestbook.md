@@ -21,6 +21,9 @@ sign the guestbook with the form below!
 </div>
 
 ## entries
+> I love the concept of having both a sun and a moon journal. you are an elegant writer, and I love the design of your website<br>
+> <span class="subtle">_─[di](https://delovely.neocities.org/) • 24 aug 22_</span>
+
 > Awesome site! I really vibe with your nature page.<br>
 > <span class="subtle">_─[Rex](https://the64thsanctum.net/) • 17 aug 22_</span>
 
