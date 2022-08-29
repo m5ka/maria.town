@@ -37,7 +37,7 @@ body
             width: $width-main
             height: calc(100vh - 5em)
             border-radius: $window-radius
-            padding-right: .5em
+            padding-right: 0.75em
             
             > nav
                 position: absolute
@@ -54,7 +54,7 @@ body
                 max-height: 100%
                 height: 100%
                 overflow-y: auto
-                padding-right: 1.5rem
+                padding-right: 1.25rem
                 display: flex
                 flex-flow: column nowrap
 
@@ -64,6 +64,12 @@ body
                 &::-webkit-scrollbar-thumb
                     border-radius: 3px
                     background: fade-out($fg-body, 0.8)
+
+                    &:hover
+                        background: fade-out($fg-body, 0.75)
+                    
+                    &:active
+                        background: lighten($bg-body, 20%)
 
                 > main
                     flex-grow: 1
