@@ -38,24 +38,6 @@ body
             height: calc(100vh - 5em)
             border-radius: $window-radius
             padding-right: .5em
-
-            &::before, &::after
-                content: ""
-                display: block
-                position: absolute
-                width: 12px
-                height: 12px
-                border-radius: 50%
-
-            &::before
-                top: 12px
-                right: 12px
-                background: #bb5a5a
-            
-            &::after
-                top: 12px
-                right: 32px
-                background: #d2be82
             
             > nav
                 position: absolute
@@ -75,6 +57,13 @@ body
                 padding-right: 1.5rem
                 display: flex
                 flex-flow: column nowrap
+
+                &::-webkit-scrollbar
+                    width: 6px
+
+                &::-webkit-scrollbar-thumb
+                    border-radius: 3px
+                    background: fade-out($fg-body, 0.8)
 
                 > main
                     flex-grow: 1
