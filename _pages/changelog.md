@@ -10,6 +10,13 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-30
+* updated 🌱[toki pona]({% link _pages/toki-pona.md %}) with way more fleshed out info
+* added nimi ale pona to 🔗[links]({% link _pages/links.md %})
+* updated the scrollbar style to be custom and removed the cute fake window close/minimise buttons
+</article>
+
+<article markdown="1">
 ## 2022-08-17
 * finally added a form to the 📘[guestbook]({% link _pages/guestbook.md %}) so it properly works!
 </article>
