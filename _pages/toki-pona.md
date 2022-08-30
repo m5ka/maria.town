@@ -43,10 +43,10 @@ myself and jan inwin frequently begrudge the lack of nuance in the toki pona wor
 
 * 😆 **musi** ─ fun, laugh, joke (← Esperanto amuzi)
 > toki ni li musi mute a· o toki sin!
-* 🎶 **nole** ─ music, sing, melody (← Korean 노래 norae)
+* 🎶 **nole** ─ music, melody, rhythm (← Korean 노래 norae)
 > mi kute e nole mute la mi ken peto pilin
-* 🎭️ **oselo** ─ theatre, pretend (← Othello)
-> oselo la mi waso majuna li pakala e ma tomo a!
+* 🎭️ **oselo** ─ theatre, perform (← Othello)
+> oselo ni la jan tu li kama olin!
 * 🎨 **otan** ─ art, poetry (← Old Saxon Wôdan)
 > sitelen otan mi li poki e waleja mi
 
