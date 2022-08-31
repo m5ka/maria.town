@@ -10,6 +10,12 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-08-31
+* updated 🌱[toki pona]({% link _pages/toki-pona.md %}) with more nimi sin that i use, and updates to some definitions
+* added a page for 🪶[writings]({% link _pages/writings.md %})
+</article>
+
+<article markdown="1">
 ## 2022-08-30
 * updated 🌱[toki pona]({% link _pages/toki-pona.md %}) with way more fleshed out info
 * added nimi ale pona to 🔗[links]({% link _pages/links.md %})
@@ -44,7 +50,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
     * moved ⏰[time]({% link _pages/projects/time.md %}) into 🎷[projects]({% link _pages/projects.md %})
     * moved 🌱[toki pona]({% link _pages/toki-pona.md %}) back into pages column
 * added a page about my conlang 🍑[caliprian]({% link _pages/conlangs/caliprian.md %})
-* split old magic page into 🌼[nature]({% link _pages/magic/nature.md %}), 🕯️[whisper]({% link _pages/magic/whisper.md %}) and 🪴[wóð]({% link _pages/magic/wod.md %})
+* split old magic page into 🌼[nature]({% link _pages/magic/nature.md %}), 🕯️[whisper]({% link _pages/magic/whisper.md %}) and 🪴 wóð
 * minor spacing changes in site layout
 * changed the site background image and window background colour (from `#1c3337` to `#1f2d39`)
 </article>
