@@ -21,6 +21,9 @@ sign the guestbook with the form below!
 </div>
 
 ## entries
+> your site is awesome, love how cozy it is. very well designed!! cannot wait to see more<br>
+> <span class="subtle">_─[vincent](https://vincentsdungeon.com) • 31 aug 22_</span>
+
 > I love the concept of having both a sun and a moon journal. you are an elegant writer, and I love the design of your website<br>
 > <span class="subtle">_─[di](https://delovely.neocities.org/) • 24 aug 22_</span>
 
