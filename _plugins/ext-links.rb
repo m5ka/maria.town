@@ -18,23 +18,18 @@ class MarzkaExtLinks
     end
 
     def process_links(html)
-      soup = Nokogiri::HTML::DocumentFragment.parse(html)
-      links = soup.css("a[href]")
-      links.each do |link|
+      soup = Nokogiri::HTML(html)
+      soup.css("a[href]").each do |link|
         if processable_link?(link)
-          process_link(link)
+          link["target"] = "_blank"
+          rels = link["rel"]&.split || []
+
+          rels.push("noopener") unless rels.include?("noopener")
+          rels.push("nofollow") unless rels.include?("nofollow")
+          link["rel"] = rels.join(" ")
         end
       end
-      soup.to_html
-    end
-
-    def process_link(link)
-      link["target"] = "_blank"
-      rels = link["rel"]&.split || []
-
-      rels.push("noopener") unless rels.include?("noopener")
-      rels.push("nofollow") unless rels.include?("nofollow")
-      link["rel"] = rels.join(" ")
+      soup.to_s
     end
 
     def processable_link?(link)
