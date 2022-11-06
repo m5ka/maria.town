@@ -9,6 +9,7 @@ i make languages (known as [conlangs](https://en.wikipedia.org/wiki/Constructed_
 
 ## a priori
 * 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %}) ─ derivationally expressive lang spoken by a hierarchical, taboo-based culture
+* 🎤[namelang]({% link _pages/conlangs/namelang.md %}) ─ just a naming conlang, really
 
 ## a posteriori
 * 🍑[caliprian]({% link _pages/conlangs/caliprian.md %}) ─ ie subfamily on mediterranean archipelago

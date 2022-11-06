@@ -11,6 +11,17 @@ it's said that the moon will hear every quiet whisper·
 subscribe via [atom](https://journal.miso.town/atom?url=https://marzka.cafe/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
 
 <article markdown="1">
+## 2022-11-06 11:50· resurrection 🌄 {#article:2022-11-06-resurrection}
+well, well, journal. hello there. it's been quite the few months. both me and my partner got covid for the first time which really just knocked us for a loop. it's been about a month or so now and i'm just starting to regain the clarity of mind and body i remember having before it all kicked off. what a _condition_ to be in.
+
+anyway, i'm just starting to readjust to getting the right amount of work done again so it's been difficult to also pay attention to my smallnet bits. sorry! but here i am, fresh start, it's marzka resurrected.
+
+i've been playing a ton of world of warcraft recently, excited for the dragonflight update. it seems all my energy for playing games has funnelled into there ever since path of exile went down the proverbial 🚽 so that's neat. i've been getting into roleplaying servers there and it's been such an interesting experience - genuinely a really neat way of exploring the lore of the universe and everything by placing yourself _into_ it. you definitely do see some weird stuff though when you jump into that world. there are some things my eyes will never be able to unsee. my poor eyes.
+
+i hope anyone and everyone who reads this is doing well. maybe resurrection is a common thread running through us all at the moment. or maybe not. wherever you are, i hope you know you're not alone there anyway. a dear friend of mine pulled two runes just this past week and their whispers were warm and cosy. so that's good. because it's bloody cold.
+</article>
+
+<article markdown="1">
 ## 2022-08-26 09:45· realignment 🪐 {#article:2022-08-26-realignment}
 so last i wrote in here i was going to play path of exile with my partner and it didn't quite work out. the league ended up very badly communicated and there were some changes that made it so we just had to give up the game for this league, which was really hard. it's been our way of connecting for a few years now, so it was quite a slap to have it suddenly not there after we were anticipating this league for so long and so excited.
 

@@ -12,9 +12,9 @@ i mostly make remixes that aren't that good but you're welcome to listen on [sou
 ---
 
 ## current obsession
-darling effect ─ insides (1993)
+hounds of love ─ kate bush (1985)
 
-<iframe width="420" height="233" src="https://www.youtube.com/embed/NugP1OihztQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="233" src="https://www.youtube.com/embed/VerK4zwMRQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -62,6 +62,11 @@ darling effect ─ insides (1993)
     * [puddle of nitrogen](https://www.youtube.com/watch?v=ltjlSrt2840)
     * [temple of null](https://www.youtube.com/watch?v=3Sxk9Xd6m6M)
     * [diet meth](https://www.youtube.com/watch?v=YfW20GhC1Ic)
+* [kate bush](https://www.katebush.com/) <span class="review-stars">★★★★</span>
+    * [hounds of love](https://www.youtube.com/watch?v=VerK4zwMRQw)
+    * [and dream of sheep](https://www.youtube.com/watch?v=vfOyJZUU7e8)
+    * [running up that hill](https://www.youtube.com/watch?v=wp43OdtAAkM)
+    * [cloudbusting](https://www.youtube.com/watch?v=pllRW9wETzw)
 * [namasenda](https://namasenda.com/) <span class="review-stars">★★★★</span>
     * [dare (pm)](https://www.youtube.com/watch?v=n3Buiq4oBnI)
     * [14 boy](https://www.youtube.com/watch?v=htUc7-gRKD0)
@@ -82,6 +87,9 @@ darling effect ─ insides (1993)
     * [bloodstream](https://www.youtube.com/watch?v=K8-J8V8cwTU)
     * [waiting for cars](https://www.youtube.com/watch?v=buneA1Pt-yA)
     * [benadryl dreams](https://www.youtube.com/watch?v=ujB9LEdOGzQ)
+* [the cranberries](https://cranberries.com/) <span class="review-stars">★★★★</span>
+    * [waltzing back](https://www.youtube.com/watch?v=4S7vvmWWSXE)
+    * [linger](https://www.youtube.com/watch?v=G6Kspj3OO0s)
 * [aesop rock](https://aesoprock.com/) <span class="review-stars">★★★</span>
     * [jumping coffin](https://www.youtube.com/watch?v=04JfAt0Oa-Y)
     * [kirby](https://www.youtube.com/watch?v=7T_KKiQiolk)

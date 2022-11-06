@@ -10,6 +10,14 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-11-06
+* wow! been a while! updated 🎶[music]({% link _pages/music.md %}) and finally got round to adding people's kind words to my 📘[guestbook]({% link _pages/guestbook.md %})!
+* fixed a little 🪲bug: i'd forgotten to actually put my [webmention](https://webmentions.neocities.org/) info into the html. big silly me moment.
+* added a poem example to my conlang 🍑[caliprian]({% link _pages/conlangs/caliprian.md %})
+* added a new page to the magic section: 🌪️[smoke]({% link _pages/magic/smoke.md %})
+</article>
+
+<article markdown="1">
 ## 2022-08-31
 * updated 🌱[toki pona]({% link _pages/toki-pona.md %}) with more nimi sin that i use, and updates to some definitions
 * added a page for 🪶[writings]({% link _pages/writings.md %})
