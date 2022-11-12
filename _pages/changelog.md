@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2022-11-12
+* added a new, minimal page style for longer-form writing! you can see an example of it on the newly-added documentation for 🍑[caliprian]({% link _pages/conlangs/ladic.md %})
+</article>
+
+<article markdown="1">
 ## 2022-11-06
 * wow! been a while! updated 🎶[music]({% link _pages/music.md %}) and finally got round to adding people's kind words to my 📘[guestbook]({% link _pages/guestbook.md %})!
 * fixed a little 🪲bug: i'd forgotten to actually put my [webmention](https://webmentions.neocities.org/) info into the html. big silly me moment.
