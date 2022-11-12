@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include meta.html %}
+        <link rel="stylesheet" href="{{ "/assets/css/plain.css" | relative_url }}" type="text/css">
+        <link rel="shortcut icon" href="{% link /assets/images/herb.png %}" type="image/png">
+    </head>
+    <body data-ssml-voice-gender="female">
+        <header>
+            <div class="h-card brand">
+                <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
+                <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
+            </div>
+        </header>
+        <main>
+            {{ content }}
+        </main>
+    </body>
+</html>

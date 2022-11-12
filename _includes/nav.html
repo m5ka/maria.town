@@ -1,0 +1,28 @@
+<p><i class="emoji" aria-hidden="true">🧩</i> pages</p>
+<ul>{% for page in site.pages %}{% if page.menu == "pages" %}
+    <li>
+        {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+    </li>{% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">🌿</i> magic</p>
+<ul>{% for page in site.pages %}{% if page.menu == "magic" %}
+    <li>
+        {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+    </li>{% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">📗</i> journal</p>
+<ul>{% for page in site.pages %}{% if page.menu == "journal" %}
+    <li>
+        {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+    </li>{% endif %}{% endfor %}
+</ul>
+<p><i class="emoji" aria-hidden="true">✈️</i> meta</p>
+<ul>{% for page in site.pages %}{% if page.menu == "meta" %}
+    <li>
+        {% if page.emoji %}<i class="emoji" aria-hidden="true">{{ page.emoji }}</i><!--
+        -->{% endif %}<a href="{{ page.url }}">{{ page.title }}</a>
+    </li>{% endif %}{% endfor %}
+</ul>
