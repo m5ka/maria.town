@@ -3,6 +3,7 @@ layout: page
 title: akšóm
 emoji: 🫂
 permalink: /conlangs/zadmah/aksom/
+parent: _pages/conlangs.md
 ---
 **akšóm** (paucal **akšómi**, collective **ihakšóm**) in [mazadmáh]({% link _pages/conlangs/zadmah.md %}) society is the name given to the layers of social stratification that an individual belongs to.
 

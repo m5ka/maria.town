@@ -3,6 +3,7 @@ layout: page
 title: waso pinja
 emoji: 🐦️
 permalink: /writings/waso-pinja/
+parent: _pages/writings.md
 ---
 waso pinja is my interpretation of traditional magpie (or other black bird) divination rhymes into [toki pona]({% link _pages/toki-pona.md %}).
 

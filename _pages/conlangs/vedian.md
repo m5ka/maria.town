@@ -3,6 +3,7 @@ layout: page
 title: vedian
 emoji: 🫒
 permalink: /conlangs/vedian/
+parent: _pages/conlangs.md
 ---
 vedian is an <a href="https://en.wikipedia.org/wiki/Indo-European_languages">indo-european language</a> that i first constructed in july 2019, with a few revisions since then.
 

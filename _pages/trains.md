@@ -2,7 +2,8 @@
 layout: page
 title: trains
 emoji: 🚅
-permalink: /shrines/trains/
+permalink: /trains/
+menu: shrines
 ---
 in typical gay neurodivergent fashion, i have to say trains are pretty rad.
 

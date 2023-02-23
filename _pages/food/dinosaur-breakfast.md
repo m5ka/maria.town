@@ -3,6 +3,7 @@ layout: page
 title: dinosaur breakfast
 emoji: 🦕
 permalink: /food/dinosaur-breakfast/
+parent: _pages/food.md
 ---
 once my partner wasn't feeling so great when we woke up so i offered to make her a comfort breakfast. when i asked what she wanted, she said "dinosaur breakfast" excitedly. it was too sweet a request for me to refuse. and thus, dinosaur breakfast was born.
 

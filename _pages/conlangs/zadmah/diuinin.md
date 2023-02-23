@@ -3,6 +3,7 @@ layout: page
 title: díuinin
 emoji: ⚧️
 permalink: /conlangs/zadmah/diuinin/
+parent: _pages/conlangs.md
 ---
 **díuinin** is the [mazadmáh]({% link _pages/conlangs/zadmah.md %}) practice of taboo gender non-compliance in which a person with a masculine body by birth takes on a feminine social role and appearance, often through assistance of [duním]({% link _pages/conlangs/zadmah/dunim.md %}), a regional herb drunk as a tea for its feminizing properties.
 

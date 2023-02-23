@@ -12,9 +12,9 @@ i mostly make remixes that aren't that good but you're welcome to listen on [sou
 ---
 
 ## current obsession
-hounds of love ─ kate bush (1985)
+naprej – nomark (2021)
 
-<iframe width="420" height="233" src="https://www.youtube.com/embed/VerK4zwMRQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="233" src="https://www.youtube.com/embed/Mt74zmiwiLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -33,6 +33,10 @@ hounds of love ─ kate bush (1985)
     * [psychobabble](https://www.youtube.com/watch?v=B5bul5HwCQY)
     * [hear me out](https://www.youtube.com/watch?v=tw0wLOOGerc)
     * [maddening shroud](https://www.youtube.com/watch?v=XLo_Fq4xpvs)
+* [nomark](https://aseben.wtf/)<span class="review-stars">★★★★★</span>
+    * [naprej](https://www.youtube.com/watch?v=Mt74zmiwiLw)
+    * [nokia sms (w/ okniino)](https://www.youtube.com/watch?v=Gb3kjI91w1M)
+    * [spet zaspan](https://www.youtube.com/watch?v=Z6x20svUgVs)
 * [sophie](http://msmsmsm.com/) <span class="review-stars">★★★★★</span>
     * [faceshopping](https://www.youtube.com/watch?v=lZ6ppVyWgCI)
     * [bipp](https://www.youtube.com/watch?v=MVc3Z-bG6Eo)
@@ -87,6 +91,10 @@ hounds of love ─ kate bush (1985)
     * [bloodstream](https://www.youtube.com/watch?v=K8-J8V8cwTU)
     * [waiting for cars](https://www.youtube.com/watch?v=buneA1Pt-yA)
     * [benadryl dreams](https://www.youtube.com/watch?v=ujB9LEdOGzQ)
+* [sugar plant](http://www.246.ne.jp/~sugapla/Eframe.html) <span class="review-stars">★★★★</span>
+    * [butterfly](https://www.youtube.com/watch?v=5uXoyjWA6B0)
+    * [rise](https://www.youtube.com/watch?v=sXaP6mzUlXA)
+    * [a furrow](https://www.youtube.com/watch?v=2jVoFdjn5_c)
 * [the cranberries](https://cranberries.com/) <span class="review-stars">★★★★</span>
     * [waltzing back](https://www.youtube.com/watch?v=4S7vvmWWSXE)
     * [linger](https://www.youtube.com/watch?v=G6Kspj3OO0s)
@@ -117,6 +125,10 @@ hounds of love ─ kate bush (1985)
     * [antidote](https://www.youtube.com/watch?v=8SOdHa-I8gI)
     * [el camino](https://www.youtube.com/watch?v=ifVQzMkcxDk)
     * [mango (freestyle / process)](https://www.youtube.com/watch?v=tZdGe54zv-g)
+* [willow](https://willowsmith.com/) <span class="review-stars">★★★</span>
+    * [transparent soul (w/ travis barker)](https://www.youtube.com/watch?v=eG9KzyVO638)
+    * [naïve](https://www.youtube.com/watch?v=IT7Vlk9k0Rk)
+    * [f-q-c #8](https://www.youtube.com/watch?v=7-Io7dqNSnw)
 * [windows 96](https://windows-96.bandcamp.com/) <span class="review-stars">★★★</span>
     * [caligula](https://www.youtube.com/watch?v=q7v9zazGZ9Q)
     * [hazy trip](https://www.youtube.com/watch?v=sxCs0pyaiKQ)

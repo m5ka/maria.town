@@ -2,42 +2,40 @@
 <html lang="en">
     <head>
         {% include meta.html %}
-        <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" type="text/css">
+        <link rel="stylesheet" href="{{ "/assets/css/marzka.css" | relative_url }}" type="text/css">
         <link rel="shortcut icon" href="{% link /assets/images/herb.png %}" type="image/png">
         <script src="{{ "/assets/js/collapsible.js" | relative_url }}" type="text/javascript"></script>
     </head>
-    <body data-ssml-voice-gender="female">
+    <body data-ssml-voice-gender="female"{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
         <div class="container">
-            <div class="container-scroll">
-                <header>
-                    <div class="h-card brand">
-                        <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
-                        <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
-                    </div>
-                </header>
-                <main>
-                    {{ content }}
-                </main>
-                <footer>
-                    <a href="{% link _pages/badge.md %}">
-                        <img src="{% link /assets/images/88x31/marzka_cafe_88x31.png %}" alt="marzka.cafe badge">
-                    </a>
-                    <span class="divider">♥</span>
-                    <a href="https://www.buymeacoffee.com/marzka">buy me a coffee</a>
-                    <span class="divider">/</span>
-                    <a href="https://github.com/marzusia/marzka.cafe">source code</a>
-                    <span class="divider">/</span>
-                    <a href="{% link _pages/help.md %}">help & contact</a>
-                </footer>
-            </div>
-            <nav>
-                <div class="collapsible">
-                    <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
-                    <div class="collapse">
-                        {% include nav.html %}
-                    </div>
+            <header>
+                <div class="h-card brand">
+                    <img src="{% link /assets/images/leah.png %}" alt="marzka" class="u-photo" width="48" height="48" draggable="false">
+                    <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">marzka</a>
                 </div>
-            </nav>
+                <nav>
+                    <div class="collapsible">
+                        <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
+                        <div class="collapse">
+                            {% include nav.html %}
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                {{ content }}
+            </main>
+            <footer>
+                <a href="{% link _pages/badge.md %}">
+                    <img src="{% link /assets/images/88x31/marzka_cafe_88x31.png %}" alt="marzka.cafe badge">
+                </a>
+                <span class="divider">♥</span>
+                <a href="https://www.buymeacoffee.com/marzka">buy me a coffee</a>
+                <span class="divider">/</span>
+                <a href="https://github.com/marzusia/marzka.cafe">source code</a>
+                <span class="divider">/</span>
+                <a href="{% link _pages/help.md %}">help & contact</a>
+            </footer>
         </div>
     </body>
 </html>

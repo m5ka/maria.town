@@ -3,6 +3,7 @@ layout: page
 title: on wódne
 emoji: 🪴
 permalink: /writings/on-wodne/
+parent: _pages/writings.md
 ---
 > wódnes wéding giend wealda græs<br>
 > þe mannum mód swá mæsteþ mid rúnum;<br>

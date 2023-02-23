@@ -8,11 +8,13 @@ menu: pages
 i make languages (known as [conlangs](https://en.wikipedia.org/wiki/Constructed_language)) and often little counterpart lands for them to live in
 
 ## a priori
+* 🌾[otisil]({% link _pages/conlangs/otisil.md %}) – minimalist language spoken on an agrarian archipelago
 * 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %}) ─ derivationally expressive lang spoken by a hierarchical, taboo-based culture
 * 🎤[namelang]({% link _pages/conlangs/namelang.md %}) ─ just a naming conlang, really
 
 ## a posteriori
 * 🍑[caliprian]({% link _pages/conlangs/caliprian.md %}) ─ ie subfamily on mediterranean archipelago
+* 🌳[padian]({% link _pages/conlangs/padian.md %}) – small ie language spoken in central europe
 * 🫒[vedian]({% link _pages/conlangs/vedian.md %}) ─ ie language on small island in caspian sea
 * ⛵️[vislandic]({% link _pages/conlangs/vislandic.md %}) ─ tiny ie language of north-west europe
 

@@ -3,6 +3,7 @@ layout: page
 title: zadmáh
 emoji: 🍵
 permalink: /conlangs/zadmah/
+parent: _pages/conlangs.md
 ---
 **zadmáh** ("our language") is a small, a priori conlang of mine spoken by the fictitious **mazadmáh** ("speaking our language") people.
 

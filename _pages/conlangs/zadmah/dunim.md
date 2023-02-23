@@ -3,6 +3,7 @@ layout: page
 title: duním
 emoji: 🍵
 permalink: /conlangs/zadmah/dunim/
+parent: _pages/conlangs.md
 ---
 **duním** is a bitter-tasting herb regional to the [mazadmáh]({% link _pages/conlangs/zadmah.md %}) people which has feminising properties.
 

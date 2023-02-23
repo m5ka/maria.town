@@ -3,6 +3,7 @@ layout: page
 title: lentil soup
 emoji: 🍜
 permalink: /food/lentil-soup/
+parent: _pages/food.md
 ---
 lentil soup is a warming, classic favourite of mine. it feels especially good in autumn or winter, or when i'm ill.
 

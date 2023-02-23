@@ -3,6 +3,7 @@ layout: page
 title: inóɣu
 emoji: 🍃
 permalink: /conlangs/zadmah/inoghu/
+parent: _pages/conlangs.md
 ---
 **inóɣu** is an adjective used in [mazadmáh]({% link _pages/conlangs/zadmah.md %}) culture to describe a person or act deemed socially taboo.
 

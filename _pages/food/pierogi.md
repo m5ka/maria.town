@@ -3,6 +3,7 @@ layout: page
 title: pierogi
 emoji: 🥟
 permalink: /food/pierogi/
+parent: _pages/food.md
 ---
 pierogi is too interesting a topic to _not_ get its own page.
 

@@ -3,6 +3,7 @@ layout: page
 title: caliprian
 emoji: 🍑
 permalink: /conlangs/caliprian/
+parent: _pages/conlangs.md
 ---
 caliprian is an [indo-european](https://en.wikipedia.org/wiki/Indo-European_languages) language i started working on in april 2022
 

@@ -1,0 +1,346 @@
+---
+---
+@import "reset.css"
+@import "zenburn.css"
+
+$font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+$font-heading: $font-body
+
+$body-width: 656px
+$nav-width: 162px
+
+$blue-but-lighter: #344a5e
+$blue: #273746
+$dark-blue: #1f2d39
+$darker-blue: #1e2831
+
+$light-link-blue: #b1f5f5
+$link-blue: #83cece
+$light-blue: #8ec0b9
+$lighter-blue: #c0e5e0
+
+$green: #96d1a0
+
+$light-pink: #ddaeda
+$selection: #99708f
+
+$pink-gradient: linear-gradient(90deg, #4f7a96 0%, #80498a 100%)
+$blue-gradient: linear-gradient(90deg, #39747a 0%, #263967 100%)
+
+$radius: 8px
+
+$box-padding: 2rem
+
+html
+    font-size: 62.5%
+    line-height: 1.5
+    -ms-text-size-adjust: 100%
+    -webkit-text-size-adjust: 100%
+
+::selection
+    background: $selection
+    color: #ffffff
+
+body
+    font-family: $font-body
+    font-size: 1.4rem
+    line-height: 1.4
+    background: url(../images/galaxy.gif) repeat
+    padding: 3rem 1rem
+    color: #ffffff
+
+.container
+    display: grid
+    grid-template-columns: 1fr auto
+    grid-template-rows: 1fr auto
+    max-width: $body-width
+    margin: 0 auto
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+    header
+        grid-row: 1 / span 2
+        grid-column: 2
+    
+    main
+        grid-row: 1
+        grid-column: 1
+    
+    footer
+        grid-row: 2
+        grid-column: 1
+
+a
+    color: $link-blue
+    text-decoration: none
+    position: relative
+    transition: color .2s ease-in-out
+
+    &[href^="http://"]:not([href^="http://marzka.cafe"]):not(.noext)::after,
+    &[href^="https://"]:not([href^="https://marzka.cafe"]):not(.noext)::after,
+    &[href^="//"]:not([href^="//marzka.cafe"]):not(.noext)::after
+        content: ""
+        display: inline-block
+        background: url(../images/ext.svg) bottom right no-repeat
+        background-size: 0.875em
+        width: 1em
+        height: 1em
+    
+    &::before
+        content: ""
+        width: 0
+        transition: width .2s ease-in-out
+        height: 2px
+        position: absolute
+        bottom: -3px
+        left: 50%
+        transform: translateX(-50%)
+        background: $pink-gradient
+    
+    &:hover::before,
+    &:focus::before
+        width: 100%
+    
+    &:hover
+        color: $light-link-blue
+
+strong
+    font-weight: bold
+
+em
+    font-style: italic
+
+.subtle
+    color: $light-blue
+
+i.emoji
+    margin-right: .4rem
+
+header
+    background: $darker-blue
+    border-radius: 0 $radius $radius 0
+    padding: $box-padding 0
+    min-width: $nav-width
+    font-size: 1.3rem
+    position: relative
+
+    &::before
+        content: ""
+        box-shadow: 2px 0 4px inset rgba(0, 0, 0, 0.3)
+        position: absolute
+        height: 100%
+        top: 0
+        left: 0
+        width: 6px
+
+    .h-card
+        display: flex
+        flex-flow: column nowrap
+        align-items: center
+        row-gap: 1rem
+        margin-bottom: 1.6rem
+
+        img
+            background: $blue
+            border-radius: 50%
+        
+        a
+            background: $pink-gradient
+            text-decoration: none
+            color: #ffffff
+            font-weight: bold
+            padding: .2rem .8rem
+            border-radius: $radius/2
+            font-size: 1.4rem
+
+            &::before
+                content: none
+    
+    .collapsible
+        .collapse-button
+            display: none
+        
+        .collapse
+            p
+                background: $blue-gradient
+                padding: .2rem .4rem .3rem .4rem
+                margin-bottom: .6rem
+
+                i.emoji
+                    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6)
+            
+            ul
+                display: flex
+                flex-flow: column nowrap
+                row-gap: .4rem
+                padding: 0 .8rem 0 2.6rem
+
+                li
+                    position: relative
+
+                    &.active
+                        a
+                            color: $green
+
+                        &::before
+                            color: $green
+
+                    &::before
+                        content: "✧"
+                        color: $light-pink
+                        position: absolute
+                        left: -1.8rem
+
+                &:not(:last-child)
+                    margin-bottom: 1.6rem
+
+
+main
+    $main-row-gap: 1.4rem
+
+    background: $dark-blue
+    border-radius: $radius 0 0 0
+    padding: $box-padding*1.5 $box-padding 0 $box-padding*1.5
+    display: flex
+    flex-flow: column nowrap
+    row-gap: $main-row-gap
+
+    article,
+    .e-content
+        display: flex
+        flex-flow: column nowrap
+        row-gap: $main-row-gap
+
+    h1, h2, h3
+        font-weight: bold
+        margin-bottom: -.8rem
+        color: $green
+    
+    h1::before
+        content: "⁺˚*･☾ "
+    
+    h1::after
+        content: " ☽･*˚⁺"
+    
+    h2::before
+        content: "✧· "
+    
+    h2::after
+        content: " ·✧"
+
+    hr
+        width: 100%
+        border-color: #30475b
+        border-style: double
+        border-width: 3px 0 0 0
+    
+    ul, ol
+        display: flex
+        flex-flow: column nowrap
+        row-gap: .8rem
+        padding-left: 2rem
+
+        ul, ol
+            margin-top: .8rem
+
+        li::marker
+            color: $light-pink
+    
+    ol
+        list-style: decimal
+    
+    ul
+        li
+            position: relative
+
+            &::before
+                content: "✧"
+                color: $light-pink
+                position: absolute
+                left: -2rem
+    
+    figure
+        max-width: 100%
+        width: fit-content
+        border: 4px double #415855
+        padding: 0.5rem
+        margin: 1rem auto 1.5rem auto
+
+        img
+            max-width: 100%
+
+        figcaption
+            margin-top: .8rem
+            margin-left: 1.25em
+            position: relative
+            color: #c0e5e0
+
+            &::before
+                content: "✎ "
+                position: absolute
+                left: -1.2em
+                color: #cec986
+    
+    blockquote
+        margin-left: 1.6rem
+        position: relative
+        color: $lighter-blue
+
+        &::before
+            content: "✎ "
+            position: absolute
+            left: -1.6rem
+            color: #cec986
+
+    dl
+        display: grid
+        grid-template-columns: auto 1fr
+        column-gap: 1.2rem
+        row-gap: .4rem
+
+        dt
+            color: $light-blue
+    
+    .badge-grid
+        display: flex
+        flex-flow: row wrap
+        column-gap: .6rem
+        row-gap: .4rem
+
+form
+    display: grid
+    grid-template-columns: auto 1fr
+    column-gap: 1rem
+    row-gap: .6rem
+
+    label
+        color: $light-blue
+    
+    input, textarea
+        background: $lighter-blue
+        padding: .4rem .6rem
+        font-family: $font-body
+        font-size: 1.4rem
+        border: none
+        outline: none
+    
+    button
+        font-family: $font-body
+        font-size: 1.4rem
+        grid-column: 2
+        background: $light-blue
+        color: $blue
+        outline: none
+        border-style: solid
+        border-width: 0 0 3px 0
+        border-color: $blue-but-lighter
+        padding: .8rem 1rem
+
+        &:active
+            border-width: 0
+            margin-top: 3px
+
+footer
+    background: $dark-blue
+    border-radius: 0 0 0 $radius
+    padding: $box-padding $box-padding $box-padding $box-padding
+    color: $light-blue

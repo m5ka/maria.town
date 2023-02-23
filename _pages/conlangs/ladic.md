@@ -3,6 +3,7 @@ layout: plain
 title: Ladic Caliprian
 emoji: 🚣‍♀️
 permalink: /conlangs/caliprian/ladic/
+parent: _pages/conlangs.md
 ---
 # Ladic Caliprian
 

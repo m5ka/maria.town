@@ -3,6 +3,7 @@ layout: page
 title: tofu doenjang soup
 emoji: 🍜
 permalink: /food/tofu-doenjang-soup/
+parent: _pages/food.md
 ---
 i don't make this soup super often because i don't often have [doenjang](https://en.wikipedia.org/wiki/Doenjang) (fermented soybean paste) in but when i do it's **so** good and honestly quite quick and easy to make.
 

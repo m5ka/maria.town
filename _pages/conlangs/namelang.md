@@ -3,6 +3,7 @@ layout: page
 title: namelang
 emoji: 🎤
 permalink: /conlangs/namelang/
+parent: _pages/conlangs.md
 ---
 namelang is a naming conlang i made in mid-2022 to give my world of warcraft characters names with meaning. ironically for a naming language, it doesn't have a name of its own. poor thing.
 

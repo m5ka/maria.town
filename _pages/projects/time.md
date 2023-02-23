@@ -3,6 +3,7 @@ layout: page
 title: time
 emoji: ⏰
 permalink: /time/
+parent: _pages/projects.md
 ---
 like many other people who spend a lot of time online, i have friends beyond the stricture of proximity. this makes timezones and trying to remember everyone's individual utc offset a bit of a pain.
 

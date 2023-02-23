@@ -10,6 +10,14 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-02-23
+* first update of 2023! did a slight design rejig, say hello to space marzka 2.0 :)
+* added some new artists on 🎶[music]({% link _pages/music.md %}) and updated current obsession
+* started writing a little on some new conlangs: 🌾[otisil]({% link _pages/conlangs/otisil.md %}) and 🌳[padian]({% link _pages/conlangs/padian.md %})
+* shrines now have their own section in the menu!
+</article>
+
+<article markdown="1">
 ## 2022-11-12
 * added a new, minimal page style for longer-form writing! you can see an example of it on the newly-added documentation for 🍑[caliprian]({% link _pages/conlangs/ladic.md %})
 </article>
@@ -50,7 +58,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 <article markdown="1">
 ## 2022-08-13
 * fleshed out 🦜[conlangs]({% link _pages/conlangs.md %}), especially 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %})
-* removed 🎬️ media in anticipation of writing better media-related 🕯️[shrine]({% link _pages/shrines.md %}) pages
+* removed 🎬️ media in anticipation of writing better media-related 🕯️shrine pages
 * moved the menu into its own little static sidebar bit and made the window look more like a window 🪟
 * added a site 🏅[badge]({% link _pages/badge.md %})!
 </article>
@@ -59,7 +67,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/chang
 ## 2022-08-12
 * don't mind me, just having a spring clean!
     * removed the right now, programming and mi seme pages
-    * moved 🍏[food]({% link _pages/food.md %}) and 🚅[trains]({% link _pages/shrines/trains.md %}) into 🍜[shrines]({% link _pages/shrines.md %})
+    * moved 🍏[food]({% link _pages/food.md %}) and 🚅[trains]({% link _pages/trains.md %}) into 🍜shrines
     * moved ⏰[time]({% link _pages/projects/time.md %}) into 🎷[projects]({% link _pages/projects.md %})
     * moved 🌱[toki pona]({% link _pages/toki-pona.md %}) back into pages column
 * added a page about my conlang 🍑[caliprian]({% link _pages/conlangs/caliprian.md %})
