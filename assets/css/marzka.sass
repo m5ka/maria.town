@@ -19,6 +19,8 @@ $link-blue: #83cece
 $light-blue: #8ec0b9
 $lighter-blue: #c0e5e0
 
+$bold-blue: #b0d7f3
+
 $green: #96d1a0
 
 $light-pink: #ddaeda
@@ -105,6 +107,7 @@ a
 
 strong
     font-weight: bold
+    color: $bold-blue
 
 em
     font-style: italic
@@ -181,6 +184,9 @@ header
                         a
                             color: $green
 
+                            &::after
+                                content: "~"
+
                         &::before
                             color: $green
 
@@ -229,6 +235,7 @@ main
 
     hr
         width: 100%
+        margin: 0
         border-color: #30475b
         border-style: double
         border-width: 3px 0 0 0
@@ -281,15 +288,22 @@ main
                 color: #cec986
     
     blockquote
-        margin-left: 1.6rem
         position: relative
         color: $lighter-blue
+        background: $blue
+        border-left: 4px solid $blue-but-lighter
+        padding: .6rem .8rem .6rem 2.8rem
 
         &::before
             content: "✎ "
             position: absolute
-            left: -1.6rem
+            left: .8rem
             color: #cec986
+        
+        .status-meta
+            display: flex
+            flex-flow: row nowrap
+            column-gap: .8rem
 
     dl
         display: grid
