@@ -10,4 +10,10 @@ welcome to **daixwí** (_"the black place"_), a little archipelago so named for 
 ## links
 📜 [documentation (pdf)]({% link assets/files/Otisil.pdf %})
 
-there's a lot lot more i want to write here about these people and their language. you'll have to check back :)
+## choose your adventure
+where do you want to go from here?
+
+* 🪨 [explore the stone circle atop the hill]({% link _pages/conlangs/otisil/stone-circle.md %})
+* 🛖 [explore the little farmhouse]({% link _pages/conlangs/otisil/farmhouse.md %})
+* 🪶 [explore the fenced area by the farmhouse]({% link _pages/conlangs/otisil/fence.md %})
+* 🧺 [explore the marketplace]({% link _pages/conlangs/otisil/marketplace.md %})

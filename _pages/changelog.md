@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://marzka.cafe/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-02-24
+* added cute cultural pick-your-adventure to page on 🌾[otisil]({% link _pages/conlangs/otisil.md %})
+</article>
+
+<article markdown="1">
 ## 2023-02-23
 * first update of 2023! did a slight design rejig, say hello to space marzka 2.0 :)
 * added some new artists on 🎶[music]({% link _pages/music.md %}) and updated current obsession
