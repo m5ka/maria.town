@@ -8,7 +8,7 @@ menu: meta
 sign the guestbook with the form below!
 
 <div class="guestbook" markdown="0">
-<form action="https://riku.miso.town/submit?user_id=13&label=marzka.cafe:guestbook" method="POST">
+<form action="https://riku.miso.town/submit?user_id=13&label=maria.town:guestbook" method="POST">
 <input type="hidden" name="redirect" value="{{ "/guestbook/signed" | absolute_url }}">
 <label class="required" for="name">name</label>
 <input type="text" name="name" id="name" autocomplete="off" required>

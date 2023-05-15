@@ -52,9 +52,9 @@ a {
     position: relative;
 }
 
-a[href^="http://"]:not([href^="http://marzka.cafe"]):not(.noext)::after,
-a[href^="https://"]:not([href^="https://marzka.cafe"]):not(.noext)::after,
-a[href^="//"]:not([href^="//marzka.cafe"]):not(.noext)::after {
+a[href^="http://"]:not([href^="http://maria.town"]):not(.noext)::after,
+a[href^="https://"]:not([href^="https://maria.town"]):not(.noext)::after,
+a[href^="//"]:not([href^="//maria.town"]):not(.noext)::after {
     content: "";
     display: inline-block;
     background: url('../images/ext.svg') bottom right no-repeat;

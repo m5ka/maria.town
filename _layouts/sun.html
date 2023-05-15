@@ -14,7 +14,7 @@ layout: default
 </article>
 <hr>
 <h2>write a comment</h2>
-<form action="https://riku.miso.town/submit?user_id=13&label=marzka.cafe:comment:{{ page.date | date: "%Y-%m-%d-" | append: page.title | slugify | truncate: 30, "" }}" method="post">
+<form action="https://riku.miso.town/submit?user_id=13&label=maria.town:comment:{{ page.date | date: "%Y-%m-%d-" | append: page.title | slugify | truncate: 30, "" }}" method="post">
     <input type="hidden" name="redirect" value="{{ "/comment-sent/" | absolute_url }}">
     <label class="required" for="name">name</label>
     <input type="text" name="name" id="name" autocomplete="off" required>

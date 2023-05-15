@@ -20,7 +20,7 @@ if you ever see a <img src="{% link /assets/images/ext.svg %}" alt="external lin
 if you're ever curious about changes i make on the site, these are recorded in a special page called the 📜[changelog]({% link _pages/changelog.md %}). this is just a list, formatted a bit like the moon journal, of changes that i've made to the site over time.
 
 ## getting in touch
-if you notice something is wrong or just want to get in touch then you can send me an email to ✉️ <span class="subtle">help@marzka.cafe</span>
+if you notice something is wrong or just want to get in touch then you can send me an email to ✉️ <span class="subtle">help@maria.town</span>
 
 ## where now?
 thank you so much for browsing my site! it means a lot to me. 🥰

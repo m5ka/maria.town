@@ -8,7 +8,7 @@ emoji: 🌙
 # moon journal 🌙
 it's said that the moon will hear every quiet whisper·
 
-subscribe via [atom](https://journal.miso.town/atom?url=https://marzka.cafe/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
+subscribe via [atom](https://journal.miso.town/atom?url=https://maria.town/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
 
 <article markdown="1">
 ## 2022-11-06 11:50· resurrection 🌄 {#article:2022-11-06-resurrection}

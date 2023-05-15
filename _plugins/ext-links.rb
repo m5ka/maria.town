@@ -1,7 +1,7 @@
 require "nokogiri"
 require "uri"
 
-class MarzkaExtLinks
+class MariaExtLinks
   class << self
     def process(doc)
       @site_url = doc.site.config["url"]
@@ -49,5 +49,5 @@ class MarzkaExtLinks
 end
 
 Jekyll::Hooks.register [:pages, :documents], :post_render do |doc|
-  MarzkaExtLinks::process(doc)
+  MariaExtLinks::process(doc)
 end

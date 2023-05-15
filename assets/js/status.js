@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const emoji = document.querySelector(".status-emoji");
     const time = document.querySelector(".status-time");
     const content = document.querySelector(".status-content");
-    fetch("https://status.cafe/users/marzka/status.json")
+    fetch("https://status.cafe/users/maria/status.json")
         .then((r) => r.json())
         .then((r) => {
             if (!r.content.length) {

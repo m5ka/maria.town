@@ -1,7 +1,7 @@
 module Jekyll
   module Converters
     class Markdown
-      class MarzkaMarkdown < KramdownParser
+      class MariaMarkdown < KramdownParser
         def initialize(config)
           super
           begin

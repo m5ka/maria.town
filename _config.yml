@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "marzka.cafe"
+title: "maria.town"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marzka.cafe" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://maria.town" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /journal/sun/:year/:month/:title/
 plugins:
   - jekyll-coffeescript
-markdown: MarzkaMarkdown
+markdown: MariaMarkdown
 include:
   - _pages
 sass:
