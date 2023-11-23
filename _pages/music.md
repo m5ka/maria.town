@@ -12,9 +12,9 @@ i mostly make remixes that aren't that good but you're welcome to listen on [sou
 ---
 
 ## current obsession
-doe eyed — rebecca black (2023)
+alone - willow (2023)
 
-<iframe width="420" height="233" src="https://www.youtube.com/embed/pAHPj4IzT4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="233" src="https://www.youtube.com/embed/Jk0JQt4jCaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
@@ -24,6 +24,11 @@ doe eyed — rebecca black (2023)
     * [rakata](https://www.youtube.com/watch?v=ykY6st2vw8A)
     * [my 2](https://www.youtube.com/watch?v=NZXB5H1SeVA)
     * [intimate flesh](https://www.youtube.com/watch?v=iymgsxaR0HI)
+* [caroline polachek](https://www.carolinepolachek.com/) <span class="review-stars">★★★★★</span>
+  * [smoke](https://www.youtube.com/watch?v=pmxqAjh3WIY)
+  * [amanaemonesia](https://www.youtube.com/watch?v=98XRKr19jIE) (as part of [chairlift](https://en.wikipedia.org/wiki/Chairlift_(band)))
+  * [sunset](https://www.youtube.com/watch?v=-YBP-D6vQIA)
+  * [so hot you're hurting my feelings](https://www.youtube.com/watch?v=sn3cHUtNZKo)
 * [dj sabrina the teenage dj](https://djsabrinatheteenagedj.bandcamp.com/) <span class="review-stars">★★★★★</span>
     * [new year's resolution](https://www.youtube.com/watch?v=puIdOaOWHg0)
     * [you might be surprised to find yourself singing it right now](https://www.youtube.com/watch?v=AdZZVY0kWIs)

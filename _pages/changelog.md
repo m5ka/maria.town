@@ -14,6 +14,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 * changed the font to [inconsolata](https://fonts.google.com/specimen/Inconsolata)! monospace time, woo!
 * added a little separator between `<article>`s
 * added a page about 🌈[lami lioa]({% link _pages/lami-lioa.md %})
+* updated the music page with some more artists and my current obsession ([alone - willow](https://www.youtube.com/watch?v=Jk0JQt4jCaI))
 </article>
 
 <article markdown="1">
