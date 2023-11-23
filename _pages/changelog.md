@@ -10,6 +10,13 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-11-23
+* changed the font to [inconsolata](https://fonts.google.com/specimen/Inconsolata)! monospace time, woo!
+* added a little separator between `<article>`s
+* added a page about 🌈[lami lioa]({% link _pages/lami-lioa.md %})
+</article>
+
+<article markdown="1">
 ## 2023-05-15
 * changed my name to maria, so so did the site! it's now **maria.town** (instead of marzka.cafe)
 </article>

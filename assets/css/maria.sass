@@ -1,9 +1,11 @@
 ---
 ---
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap')
+
 @import "reset.css"
 @import "zenburn.css"
 
-$font-body: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+$font-body: 'Inconsolata', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 $font-heading: $font-body
 
 $body-width: 656px
@@ -210,6 +212,10 @@ main
     flex-flow: column nowrap
     row-gap: $main-row-gap
 
+    > article:not(:last-of-type)
+        border-bottom: 1px solid $blue-but-lighter
+        padding-bottom: 1.6rem
+
     article,
     .e-content
         display: flex
@@ -243,7 +249,7 @@ main
     ul, ol
         display: flex
         flex-flow: column nowrap
-        row-gap: .8rem
+        row-gap: .6rem
         padding-left: 2rem
 
         ul, ol
@@ -293,6 +299,11 @@ main
         background: $blue
         border-left: 4px solid $blue-but-lighter
         padding: .6rem .8rem .6rem 2.8rem
+
+        &:not(.no-flex)
+            display: flex
+            flex-flow: column nowrap
+            row-gap: .8rem
 
         &::before
             content: "✎ "
