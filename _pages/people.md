@@ -20,6 +20,7 @@ these are cool sites made by cool people i've seen around the smallnet. i don't 
     <a href="https://vincentsdungeon.com"><img src="{% link /assets/images/88x31/vincent_88x31.gif %}" width="88" height="31" alt="vincent's dungeon"></a>
     <a href="https://sadgrl.online"><img src="{% link /assets/images/88x31/sadgrl_88x31.gif %}" width="88" height="31" alt="sadgrl.online"></a>
     <a href="https://cinni.net"><img src="{% link /assets/images/88x31/cinni_88x31.gif %}" width="88" height="31" alt="cinni's dream home"></a>
+    <a href="https://frills.dev"><img src="{% link /assets/images/88x31/frills_dev_88x31.png %}" width="88" height="31" alt="frills.dev"></a>
     <a href="https://bikobatanari.art"><img src="{% link /assets/images/88x31/bikobatanari_88x31.gif %}" width="88" height="31" alt="bikobatanari"></a>
     <a href="https://angel99.neocities.org/"><img src="{% link /assets/images/88x31/angel_88x31.gif %}" width="88" height="31" alt="angel99"></a>
     <a href="https://aegi.neocities.org/"><img src="{% link /assets/images/88x31/aegi_88x31.gif %}" width="88" height="31" alt="aegi's cafe"></a>

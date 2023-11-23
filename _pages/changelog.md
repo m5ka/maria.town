@@ -15,6 +15,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 * added a little separator between `<article>`s
 * added a page about 🌈[lami lioa]({% link _pages/lami-lioa.md %})
 * updated the music page with some more artists and my current obsession ([alone - willow](https://www.youtube.com/watch?v=Jk0JQt4jCaI))
+* added more cool people to 💚[people]({% link _pages/people.md %})
 </article>
 
 <article markdown="1">
