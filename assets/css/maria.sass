@@ -90,6 +90,7 @@ a
     color: $link-blue
     text-decoration: none
     position: relative
+    display: inline-block
     transition: color .2s ease-in-out
 
     &[href^="http://"]:not([href^="http://maria.town"]):not(.noext)::after,
@@ -107,7 +108,7 @@ a
         width: 0
         height: 2px
         position: absolute
-        bottom: -3px
+        bottom: -1px
         left: 50%
         transform: translateX(-50%)
         background: $pink-gradient

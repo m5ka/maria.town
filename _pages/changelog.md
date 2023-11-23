@@ -16,6 +16,8 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 * added a page about 🌈[lami lioa]({% link _pages/lami-lioa.md %})
 * updated the music page with some more artists and my current obsession ([alone - willow](https://www.youtube.com/watch?v=Jk0JQt4jCaI))
 * added more cool people to 💚[people]({% link _pages/people.md %})
+* added back the vhs effect because it's just coooool 📼
+* images that aren't part of links now automatically link to the image in a new tab. pretty handy 🖼️
 </article>
 
 <article markdown="1">

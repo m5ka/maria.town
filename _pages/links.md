@@ -37,7 +37,7 @@ i also have some links to cool smallnet sites on my 💚<a href="{% link _pages/
 
 ## sociology, religion &amp; personal
 * [sutta central](https://suttacentral.net/)
-* [old english heathenry wiki](https://anglosaxonheathenry.wiki)
+* [british polytheism wiki](https://britpol.org/)
 * [am i a lesbian?](https://www.docdroid.net/N46Ea3o/copy-of-am-i-a-lesbian-masterdoc-pdf)
 
 ## politics
