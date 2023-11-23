@@ -8,6 +8,9 @@
 $font-body: 'Inconsolata', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 $font-heading: $font-body
 
+$size-body: 1.6rem
+$size-menu: 1.5rem
+
 $body-width: 656px
 $nav-width: 162px
 
@@ -35,6 +38,12 @@ $radius: 8px
 
 $box-padding: 2rem
 
+@keyframes scrolling
+    from
+        background-position-y: 0
+    to
+        background-position-y: 6px
+
 html
     font-size: 62.5%
     line-height: 1.5
@@ -47,11 +56,24 @@ html
 
 body
     font-family: $font-body
-    font-size: 1.4rem
+    font-size: $size-body
     line-height: 1.4
     background: url(../images/galaxy.gif) repeat
     padding: 3rem 1rem
     color: #ffffff
+
+    &::after
+        content: ""
+        position: fixed
+        top: 0
+        left: 0
+        width: 100vw
+        height: 100vh
+        pointer-events: none
+        background: repeating-linear-gradient(0deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25) 1px, transparent 2px, transparent 3px)
+
+        @media(prefers-reduced-motion: no-preference)
+            animation: scrolling 1s linear infinite
 
 .container
     display: grid
@@ -92,13 +114,15 @@ a
     &::before
         content: ""
         width: 0
-        transition: width .2s ease-in-out
         height: 2px
         position: absolute
         bottom: -3px
         left: 50%
         transform: translateX(-50%)
         background: $pink-gradient
+
+        @media(prefers-reduced-motion: no-preference)
+            transition: width .2s ease-in-out
     
     &:hover::before,
     &:focus::before
@@ -125,7 +149,7 @@ header
     border-radius: 0 $radius $radius 0
     padding: $box-padding 0
     min-width: $nav-width
-    font-size: 1.3rem
+    font-size: $size-menu
     position: relative
 
     &::before
@@ -155,7 +179,7 @@ header
             font-weight: bold
             padding: .2rem .8rem
             border-radius: $radius/2
-            font-size: 1.4rem
+            font-size: $size-menu
 
             &::before
                 content: none
@@ -211,6 +235,7 @@ main
     display: flex
     flex-flow: column nowrap
     row-gap: $main-row-gap
+    max-width: $body-width - $nav-width
 
     > article:not(:last-of-type)
         border-bottom: 1px solid $blue-but-lighter
@@ -330,14 +355,18 @@ main
         flex-flow: row wrap
         column-gap: .6rem
         row-gap: .4rem
+
+    .highlight
+        overflow-x: auto
+
+        pre
+            padding: 1rem
+            border-radius: $radius/2
     
-    .highlight pre
-        padding: 1rem
-        border-radius: $radius/2
-    
-    .highlight code,
-    .highlight pre
-        background: $blue
+        code,
+        pre
+            background: $blue
+            width: fit-content
 
 form
     display: grid
@@ -352,13 +381,13 @@ form
         background: $lighter-blue
         padding: .4rem .6rem
         font-family: $font-body
-        font-size: 1.4rem
+        font-size: $size-body
         border: none
         outline: none
     
     button
         font-family: $font-body
-        font-size: 1.4rem
+        font-size: $size-body
         grid-column: 2
         background: $light-blue
         color: $blue
@@ -377,3 +406,4 @@ footer
     border-radius: 0 0 0 $radius
     padding: $box-padding $box-padding $box-padding $box-padding
     color: $light-blue
+    font-size: $size-menu
