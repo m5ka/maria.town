@@ -317,10 +317,19 @@ main
         border-left: 4px solid $blue-but-lighter
         padding: .6rem .8rem .6rem 2.8rem
 
-        &:not(.no-flex)
+        &:not(.no-flex):not(.webring)
             display: flex
             flex-flow: column nowrap
             row-gap: .8rem
+
+        &.webring
+            display: flex
+            align-items: center
+            justify-content: space-between
+            padding-left: .8rem
+
+            &::before
+                content: none
 
         &::before
             content: "✎ "
