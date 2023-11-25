@@ -11,6 +11,21 @@ it's said that the moon will hear every quiet whisper·
 subscribe via [atom](https://journal.miso.town/atom?url=https://maria.town/journal/moon) or read at the [neon kiosk](https://kiosk.nightfall.city/)
 
 <article markdown="1">
+## 2023-11-25 14:34· reconstitution 🐝 {#article:2023-11-25-reconstitution}
+<span class="subtle">cw: death, illness</span>
+
+wow, so it's been over a year since i last wrote in here. oops. what a year this has been. we're getting towards the end of it so i suppose i can start reflecting.
+
+the start of this year was a bit of a whirlwind. my dearest friend passed away which was a shock to the system, especially considering that up to that point there had never been any other person in the world where i felt like they were as similar to me as her. we shared so many struggles. so that's been incredibly hard.
+
+we also got glandular fever only less than a month after finding out and goodness, whatever physical strength i had leftover after the ordeal of that early period of grief was knocked right out again. i've never felt so generally unwell for such a long period of time - months of constant tiredness and recurrent swelling.
+
+happily, things got a lot better later in the year. i finally, in the past few months, feel like my body is well again and my social and emotional welfare is recovering too. things are definitely on the up, and i'm very excited for the festivities to come next month, even if it is freezing cold again. this year was full of heatwaves, so i'm definitely glad those are over at least.
+
+i'm really glad to be working on this site again, it's such a passion project and i'm very glad to be keeping it going. even though a lot within it has changed over the past few years! how has everyone else been this year? is anyone thinking about resolutions for the new year yet?
+</article>
+
+<article markdown="1">
 ## 2022-11-06 11:50· resurrection 🌄 {#article:2022-11-06-resurrection}
 well, well, journal. hello there. it's been quite the few months. both me and my partner got covid for the first time which really just knocked us for a loop. it's been about a month or so now and i'm just starting to regain the clarity of mind and body i remember having before it all kicked off. what a _condition_ to be in.
 
@@ -18,7 +33,7 @@ anyway, i'm just starting to readjust to getting the right amount of work done a
 
 i've been playing a ton of world of warcraft recently, excited for the dragonflight update. it seems all my energy for playing games has funnelled into there ever since path of exile went down the proverbial 🚽 so that's neat. i've been getting into roleplaying servers there and it's been such an interesting experience - genuinely a really neat way of exploring the lore of the universe and everything by placing yourself _into_ it. you definitely do see some weird stuff though when you jump into that world. there are some things my eyes will never be able to unsee. my poor eyes.
 
-i hope anyone and everyone who reads this is doing well. maybe resurrection is a common thread running through us all at the moment. or maybe not. wherever you are, i hope you know you're not alone there anyway. a dear friend of mine pulled two runes just this past week and their whispers were warm and cosy. so that's good. because it's bloody cold.
+i hope anyone and everyone who reads this is doing well. maybe resurrection is a common thread running through us all at the moment. or maybe not. wherever you are, i hope you know you're not alone there anyway. a dear friend of mine pulled two runes just this past week and their whispers were warm and cosy. so that's good. because it's really cold.
 </article>
 
 <article markdown="1">
