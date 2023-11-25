@@ -8,6 +8,8 @@
 $font-body: 'Inconsolata', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 $font-heading: $font-body
 
+$cursor: url(../cursors/pot.cur), auto
+
 $size-body: 1.6rem
 $size-menu: 1.5rem
 
@@ -55,6 +57,7 @@ body
     background: url(../images/galaxy.gif) repeat
     padding: 3rem 1rem
     color: #ffffff
+    cursor: $cursor
 
     &::after
         content: ""
@@ -92,6 +95,7 @@ a
     position: relative
     display: inline-block
     transition: color .2s ease-in-out
+    cursor: $cursor
 
     &[href^="http://"]:not([href^="http://maria.town"]):not(.noext)::after,
     &[href^="https://"]:not([href^="https://maria.town"]):not(.noext)::after,
