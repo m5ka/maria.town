@@ -10,6 +10,20 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-11-25
+* custom cursor is back!
+* added the pages 🍇[substance]({% link _pages/magic/substance.md %}) and ✨[work]({% link _pages/magic/work.md %}) to the magic section, and archived the 🕯️[whisper]({% link _pages/magic/whisper.md %}) page
+* updated my current obsession in 🎶[music]({% link _pages/music.md %}) to [dang - caroline polachek](https://www.youtube.com/watch?v=UX5ahM24o8A)
+* joined the [fediring](https://fediring.net/) webring
+</article>
+
+<article markdown="1">
+## 2023-11-24
+* made the not found page much better
+* updated how webrings appear on the homepage
+</article>
+
+<article markdown="1">
 ## 2023-11-23
 * changed the font to [inconsolata](https://fonts.google.com/specimen/Inconsolata)! monospace time, woo!
 * added a little separator between `<article>`s

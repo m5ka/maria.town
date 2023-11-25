@@ -3,8 +3,11 @@ layout: page
 title: whisper
 emoji: 🕯️
 permalink: /magic/whisper/
-menu: magic
 ---
+> 🚧 **btw!** i've decided to retire this page, so its contents might be a little old. but i thought i'd make sure it didn't get deleted. so take what's said here with a pinch of entropy and retirement.
+
+---
+
 communication far exceeds the strictures of that which is formalised in human discourse. we speak with the body, with the mind. and we are heard.
 
 i find great joy in conversation with nature, aided by her provisions - myriad herbs, wihta, ése and charms.

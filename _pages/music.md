@@ -12,9 +12,9 @@ i mostly make remixes that aren't that good but you're welcome to listen on [sou
 ---
 
 ## current obsession
-alone - willow (2023)
+dang - caroline polachek (2023)
 
-<iframe width="420" height="233" src="https://www.youtube.com/embed/Jk0JQt4jCaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="233" src="https://www.youtube.com/embed/UX5ahM24o8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 

@@ -26,7 +26,10 @@ these are cool sites made by cool people i've seen around the smallnet. i don't 
     <a href="https://aegi.neocities.org/"><img src="{% link /assets/images/88x31/aegi_88x31.gif %}" width="88" height="31" alt="aegi's cafe"></a>
     <a href="https://noodledesk.net/"><img src="{% link /assets/images/88x31/noodledesk_88x31.gif %}" width="88" height="31" alt="noodledesk"></a>
     <a href="https://the64thsanctum.net/"><img src="{% link /assets/images/88x31/64thsanctum_88x31.gif %}" width="88" height="31" alt="64thsanctum"></a>
+    <a href="https://maya.land/"><img src="{% link /assets/images/88x31/maya_land_88x31.png %}" width="88" height="31" alt="maya.land"></a>
 </div>
 
 * 🪱[wormenthusiast](https://wormenthusiast.neocities.org/)
 * 👋[dozens](https://tilde.town/~dozens/)
+
+of these, [maya.land](https://maya.land) deserves a special mention for being one of the sites that directly inspired me to create my site (the one you're reading now!) so thanks :)

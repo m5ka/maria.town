@@ -50,7 +50,7 @@ document.addEventListener "DOMContentLoaded", () =>
         trackDate = if (track["@attr"] and track["@attr"].nowplaying) then "now playing" else timeAgo(track.date["#text"]+" UTC").toLowerCase()
         nowlistening.innerHTML = "#{track.artist['#text'].toLowerCase()} ─ #{track.name.toLowerCase()}"
         nowlistening.href = track.url
-        nowlisteningdate.innerHTML = "• #{trackDate}"
+        nowlisteningdate.innerHTML = trackDate
     .catch (err) -> 
         console.log err 
         nowlistening.innerHTML = "oops"
