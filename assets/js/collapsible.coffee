@@ -1,7 +1,10 @@
 ---
 ---
 document.addEventListener "DOMContentLoaded", () =>
-    collapsible = document.querySelector(".collapsible")
-    document.querySelector(".collapse-button").addEventListener "click", (event) =>
+    header = document.querySelector(".container > header")
+    document.querySelector(".hamburger-open").addEventListener "click", (event) =>
         event.preventDefault()
-        collapsible.classList.toggle("show")
+        header.classList.toggle("open")
+    document.querySelector(".hamburger-close").addEventListener "click", (event) =>
+        event.preventDefault()
+        header.classList.remove("open")

@@ -9,20 +9,17 @@
     <body data-ssml-voice-gender="female"{% if page.bodyclass %} class="{{ page.bodyclass }}"{% endif %}>
         <div class="container">
             <header>
+                <button class="hamburger-close"><img src="{% link assets/images/icons/xmark-solid.svg %}" alt="hide menu" aria-label="hide menu"></button>
                 <div class="h-card brand">
                     <img src="{% link /assets/images/leah.png %}" alt="maria" class="u-photo" width="48" height="48" draggable="false">
                     <a href="{{ site.url }}" class="p-name p-author u-url" rel="me author">maria</a>
                 </div>
                 <nav>
-                    <div class="collapsible">
-                        <a href="#" class="collapse-button"><i class="emoji" aria-hidden="true">✋</i> menu</a>
-                        <div class="collapse">
-                            {% include nav.html %}
-                        </div>
-                    </div>
+                    {% include nav.html %}
                 </nav>
             </header>
             <main>
+                <nav><button class="hamburger-open"><img src="{% link assets/images/icons/bars-solid.svg %}" alt="show menu" aria-label="show menu"></button></nav>
                 {{ content }}
             </main>
             <footer>

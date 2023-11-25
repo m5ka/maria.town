@@ -5,6 +5,10 @@
 @import "reset.css"
 @import "zenburn.css"
 
+@mixin desktop
+    @media(min-width: 768px)
+        @content
+
 $font-body: 'Inconsolata', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 $font-heading: $font-body
 
@@ -54,10 +58,14 @@ body
     font-family: $font-body
     font-size: $size-body
     line-height: 1.4
-    background: url(../images/galaxy.gif) repeat
-    padding: 3rem 1rem
+    background: $dark-blue
+    padding-inline: 1rem
     color: #ffffff
     cursor: $cursor
+
+    @include desktop
+        padding-block: 3rem
+        background: url(../images/galaxy.gif) repeat
 
     &::after
         content: ""
@@ -70,24 +78,41 @@ body
         background: repeating-linear-gradient(0deg, rgba(0, 0, 0, .25), rgba(0, 0, 0, .25) 1px, transparent 2px, transparent 3px)
 
 .container
-    display: grid
-    grid-template-columns: 1fr auto
-    grid-template-rows: 1fr auto
-    max-width: $body-width
-    margin: 0 auto
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
-
     header
-        grid-row: 1 / span 2
-        grid-column: 2
-    
-    main
-        grid-row: 1
-        grid-column: 1
-    
-    footer
-        grid-row: 2
-        grid-column: 1
+        position: fixed
+        z-index: 999
+        right: -100%
+        max-height: 100vh
+        overflow-y: auto
+        transition: right .2s ease-in-out
+
+        &.open
+            right: 0%
+
+    @include desktop
+        display: grid
+        grid-template-columns: 1fr auto
+        grid-template-rows: 1fr auto
+        max-width: $body-width
+        margin: 0 auto
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+        header
+            grid-row: 1 / span 2
+            grid-column: 2
+            position: relative
+            max-height: unset
+            overflow-y: unset
+            z-index: unset
+            right: unset
+        
+        main
+            grid-row: 1
+            grid-column: 1
+        
+        footer
+            grid-row: 2
+            grid-column: 1
 
 a
     color: $link-blue
@@ -102,7 +127,7 @@ a
     &[href^="//"]:not([href^="//maria.town"]):not(.noext)::after
         content: ""
         display: inline-block
-        background: url(../images/ext.svg) bottom right no-repeat
+        background: url(../images/icons/ext.svg) bottom right no-repeat
         background-size: 0.875em
         width: 1em
         height: 1em
@@ -147,15 +172,31 @@ header
     min-width: $nav-width
     font-size: $size-menu
     position: relative
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6)
 
-    &::before
-        content: ""
-        box-shadow: 2px 0 4px inset rgba(0, 0, 0, 0.3)
-        position: absolute
-        height: 100%
-        top: 0
-        left: 0
-        width: 6px
+    @include desktop
+        box-shadow: none
+
+        &::before
+            content: ""
+            box-shadow: 2px 0 4px inset rgba(0, 0, 0, 0.3)
+            position: absolute
+            height: 100%
+            top: 0
+            left: 0
+            width: 6px
+    
+    button.hamburger-close
+        margin-inline: 1.6rem
+        background: none
+        outline: none
+        border: none
+
+        @include desktop
+            display: none
+
+        img
+            width: 1.8rem
 
     .h-card
         display: flex
@@ -180,58 +221,73 @@ header
             &::before
                 content: none
     
-    .collapsible
-        .collapse-button
-            display: none
+    nav
+        p
+            background: $blue-gradient
+            padding: .2rem .4rem .3rem .4rem
+            margin-bottom: .6rem
+
+            i.emoji
+                text-shadow: 0 0 4px rgba(0, 0, 0, 0.6)
         
-        .collapse
-            p
-                background: $blue-gradient
-                padding: .2rem .4rem .3rem .4rem
-                margin-bottom: .6rem
+        ul
+            display: flex
+            flex-flow: column nowrap
+            row-gap: .4rem
+            padding: 0 .8rem 0 2.6rem
 
-                i.emoji
-                    text-shadow: 0 0 4px rgba(0, 0, 0, 0.6)
-            
-            ul
-                display: flex
-                flex-flow: column nowrap
-                row-gap: .4rem
-                padding: 0 .8rem 0 2.6rem
+            li
+                position: relative
 
-                li
-                    position: relative
+                &.active
+                    a
+                        color: $green
 
-                    &.active
-                        a
-                            color: $green
-
-                            &::after
-                                content: "~"
-
-                        &::before
-                            color: $green
+                        &::after
+                            content: "~"
 
                     &::before
-                        content: "✧"
-                        color: $light-pink
-                        position: absolute
-                        left: -1.8rem
+                        color: $green
 
-                &:not(:last-child)
-                    margin-bottom: 1.6rem
+                &::before
+                    content: "✧"
+                    color: $light-pink
+                    position: absolute
+                    left: -1.8rem
+
+            &:not(:last-child)
+                margin-bottom: 1.6rem
 
 
 main
     $main-row-gap: 1.4rem
-
+    padding: $box-padding*1.25 $box-padding
     background: $dark-blue
     border-radius: $radius 0 0 0
-    padding: $box-padding*1.5 $box-padding 0 $box-padding*1.5
     display: flex
     flex-flow: column nowrap
     row-gap: $main-row-gap
-    max-width: $body-width - $nav-width
+
+    @include desktop
+        max-width: $body-width - $nav-width
+        padding: $box-padding*1.5 $box-padding 0 $box-padding*1.5
+
+    nav
+        display: flex
+        justify-content: flex-end
+        align-items: center
+
+        @include desktop
+            display: none
+
+        button
+            background: none
+            outline: none
+            border: none
+            cursor: $cursor
+            
+            img
+                width: 1.8rem
 
     > article:not(:last-of-type)
         border-bottom: 1px solid $blue-but-lighter

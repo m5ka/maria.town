@@ -15,6 +15,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 * added the pages 🍇[substance]({% link _pages/magic/substance.md %}) and ✨[work]({% link _pages/magic/work.md %}) to the magic section, and archived the 🕯️[whisper]({% link _pages/magic/whisper.md %}) page
 * updated my current obsession in 🎶[music]({% link _pages/music.md %}) to [dang - caroline polachek](https://www.youtube.com/watch?v=UX5ahM24o8A)
 * joined the [fediring](https://fediring.net/) webring
+* finally finally made this theme mobile-friendly! (sorry it took so long!) 📱
 </article>
 
 <article markdown="1">

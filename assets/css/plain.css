@@ -57,7 +57,7 @@ a[href^="https://"]:not([href^="https://maria.town"]):not(.noext)::after,
 a[href^="//"]:not([href^="//maria.town"]):not(.noext)::after {
     content: "";
     display: inline-block;
-    background: url('../images/ext.svg') bottom right no-repeat;
+    background: url('../images/icons/ext.svg') bottom right no-repeat;
     background-size: .875em;
     width: 1em;
     height: 1em;

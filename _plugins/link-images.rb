@@ -6,7 +6,7 @@ class MariaLinkImages
       return unless processable?(doc)
       soup = Nokogiri::HTML(doc.output)
       soup.css("main img").each do |image|
-        next if image.parent.name == "a"
+        next if image.parent.name == "a" || image.parent.name == "button" || image.parent.name == "link"
         src = image["src"]
         image.wrap("<a href=\"#{src}\" target=\"_blank\" rel=\"noreferrer noopener nofollow\"></a>")
       end

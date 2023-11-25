@@ -14,7 +14,7 @@ as something a little different to regular pages, i have two **journals** ─ th
 ## about links
 **links** on my site, that is things you can click to browse to another page, are coloured blue and grow a blue-purple line underneath if you hover over them. you can click these to browse around all my content.
 
-if you ever see a <img src="{% link /assets/images/ext.svg %}" alt="external link icon" width="14px"> icon appear next to a link, that shows that it is **external**. that means it links to a page outside of my site, such as on wikipedia. any external links like this will automatically open in another tab.
+if you ever see a <img src="{% link /assets/images/icons/ext.svg %}" alt="external link icon" width="14px"> icon appear next to a link, that shows that it is **external**. that means it links to a page outside of my site, such as on wikipedia. any external links like this will automatically open in another tab.
 
 ## changelog
 if you're ever curious about changes i make on the site, these are recorded in a special page called the 📜[changelog]({% link _pages/changelog.md %}). this is just a list, formatted a bit like the moon journal, of changes that i've made to the site over time.
