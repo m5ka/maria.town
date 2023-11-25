@@ -16,6 +16,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 * updated my current obsession in 🎶[music]({% link _pages/music.md %}) to [dang - caroline polachek](https://www.youtube.com/watch?v=UX5ahM24o8A)
 * joined the [fediring](https://fediring.net/) webring
 * finally finally made this theme mobile-friendly! (sorry it took so long!) 📱
+* expanded the 🐝[george]({% link _pages/george.html %}) page
 </article>
 
 <article markdown="1">
@@ -160,7 +161,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 
 <article markdown="1">
 ## 2022-07-21
-* joined the [george]({% link _pages/george.html %}) webring
+* joined the 🐝[george]({% link _pages/george.html %}) webring
 * added a crt screen-style effect to the site
 * added better `<meta>` tags
 </article>
