@@ -10,6 +10,13 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-11-26
+* some minor style changes! links now have a wavy underline on hover and i tweaked some of the subtle colours used on the page to not be quite so close to the link colour 🎨
+* joined [null webring](https://nuthead.neocities.org/ring/) and [neossg webring](https://neossg.neocities.org/)
+* switched to an external guestbook and webmention-only comments because riku was just getting so full of spam :(
+</article>
+
+<article markdown="1">
 ## 2023-11-25
 * custom cursor is back!
 * added the pages 🍇[substance]({% link _pages/magic/substance.md %}) and ✨[work]({% link _pages/magic/work.md %}) to the magic section, and archived the 🕯️[whisper]({% link _pages/magic/whisper.md %}) page
@@ -88,7 +95,7 @@ you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/change
 <article markdown="1">
 ## 2022-08-14
 * renamed friends to 💚[people]({% link _pages/people.md %}) and added some cool badges from other people's sites
-* reworked the beginning of the 🏠️[homepage]({% link _pages/index.html %}) including a new page about my [name]({% link _pages/maria.md %})
+* reworked the beginning of the 🏠️[homepage]({% link _pages/index.html %}) including a new page about my name
 * added a 📘[guestbook]({% link _pages/guestbook.md %})
 </article>
 

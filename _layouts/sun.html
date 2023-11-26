@@ -5,7 +5,7 @@ layout: default
     <h1 class="p-name journal-title">{{ page.title }}{% if page.emoji %} <i class="emoji" aria-hidden="true">{{ page.emoji }}</i>{% endif %}</h1>
     <p>
         <a class="u-url" href="{{ page.url }}">
-            <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d %b %Y" | downcase }}</time>
+            <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%d %B %Y" | downcase }}</time>
         </a>
     </p>
     <div class="e-content">
@@ -13,18 +13,8 @@ layout: default
     </div>
 </article>
 <hr>
-<h2>write a comment</h2>
-<form action="https://riku.miso.town/submit?user_id=13&label=maria.town:comment:{{ page.date | date: "%Y-%m-%d-" | append: page.title | slugify | truncate: 30, "" }}" method="post">
-    <input type="hidden" name="redirect" value="{{ "/comment-sent/" | absolute_url }}">
-    <label class="required" for="name">name</label>
-    <input type="text" name="name" id="name" autocomplete="off" required>
-    <label for="website">website</label>
-    <input type="text" name="website" id="website" autocomplete="off">
-    <label class="required" for="message">message</label>
-    <textarea name="message" id="message" autocomplete="off" required></textarea>
-    <button type="submit">write! ✉️</button>
-</form>
-<p>alternatively, you can comment with a <a href="https://webmentions.neocities.org" target="_blank" rel="noreferrer noopener">webmention</a></p>
+<h2>comments</h2>
+<p>you can comment with a <a href="https://webmentions.neocities.org" target="_blank" rel="noreferrer noopener">webmention</a></p>
 {% if page.comments %}
 <h2>comments</h2>{% for comment in page.comments %}
 <blockquote>

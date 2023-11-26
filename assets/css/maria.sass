@@ -17,7 +17,7 @@ $cursor: url(../cursors/pot.cur), auto
 $size-body: 1.6rem
 $size-menu: 1.5rem
 
-$body-width: 684px
+$body-width: 756px
 $nav-width: 162px
 
 $blue-but-lighter: #344a5e
@@ -29,6 +29,9 @@ $light-link-blue: #b1f5f5
 $link-blue: #83cece
 $light-blue: #8ec0b9
 $lighter-blue: #c0e5e0
+
+$grey-blue: #bfd3d1
+$deep-grey-blue: #9cbbb8
 
 $bold-blue: #b0d7f3
 
@@ -120,9 +123,8 @@ body
 a
     color: $link-blue
     text-decoration: none
-    position: relative
-    display: inline-block
-    transition: color .2s ease-in-out
+    text-decoration-skip-ink: none
+    text-underline-offset: 2px
     cursor: $cursor
 
     &[href^="http://"]:not([href^="http://maria.town"]):not(.noext)::after,
@@ -135,25 +137,13 @@ a
         width: 1em
         height: 1em
     
-    &::before
-        content: ""
-        width: 0
-        height: 2px
-        position: absolute
-        bottom: -1px
-        left: 50%
-        transform: translateX(-50%)
-        background: $pink-gradient
-
-        @media(prefers-reduced-motion: no-preference)
-            transition: width .2s ease-in-out
-    
     &:hover::before,
     &:focus::before
         width: 100%
     
     &:hover
         color: $light-link-blue
+        text-decoration: wavy underline
 
 strong
     font-weight: bold
@@ -163,7 +153,7 @@ em
     font-style: italic
 
 .subtle
-    color: $light-blue
+    color: $grey-blue
 
 i.emoji
     margin-right: .4rem
@@ -246,9 +236,7 @@ header
                 &.active
                     a
                         color: $green
-
-                        &::after
-                            content: "~"
+                        text-decoration: wavy underline
 
                     &::before
                         color: $green
@@ -413,6 +401,9 @@ main
             position: absolute
             left: .8rem
             color: #cec986
+        
+        .subtle
+            color: $deep-grey-blue
         
         .status-meta
             display: flex
