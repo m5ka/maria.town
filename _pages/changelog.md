@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2023-11-27
+* joined the 🏳️‍🌈[bucketfish](https://webring.bucketfish.me) and 🐶[silly.city](https://silly.city/) webrings
+</article>
+
+<article markdown="1">
 ## 2023-11-26
 * some minor style changes! links now have a wavy underline on hover and i tweaked some of the subtle colours used on the page to not be quite so close to the link colour 🎨
 * joined [null webring](https://nuthead.neocities.org/ring/) and [neossg webring](https://neossg.neocities.org/)
