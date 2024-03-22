@@ -7,6 +7,9 @@ menu: pages
 ---
 there are tons of cool people who are also making their own spaces online. here's my little collection of cool people!
 
+## lydia
+massive shout-out to 🎷[lydia portrait](https://lyd.city/) who is an epic person and music producer and website maker. her site is so much fun to explore. (even tho i can't find the wizard's key 😢)
+
 ## friends
 * ✒️[inwin](https://ingwine.neocities.org)· cool philology and beautiful oe writing
 * 🍙[lija](https://lija.neocities.org/)· sick music and cool site design

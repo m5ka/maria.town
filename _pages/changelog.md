@@ -10,6 +10,11 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2024-03-22
+* added 🎷[lydia portrait](https://lyd.city/) to my 💚[people]({% link _pages/people.md %}) page
+</article>
+
+<article markdown="1">
 ## 2023-11-27
 * joined the 🏳️‍🌈[bucketfish](https://webring.bucketfish.me) and 🐶[silly.city](https://silly.city/) webrings
 </article>
