@@ -10,6 +10,12 @@ this is a little log of changes i've made to pages on the site or to the overall
 you can [subscribe](https://journal.miso.town/atom?url=https://maria.town/changelog) to this changelog via atom!
 
 <article markdown="1">
+## 2024-03-24
+* added 🐸[riyan]({% link _pages/conlangs/riyan.md %}) to my 🦜[conlangs]({% link _pages/conlangs.md %}) section
+* fixed a little mistake in my 🍜[lentil soup]({% link _pages/food/lentil-soup.md %}) recipe
+</article>
+
+<article markdown="1">
 ## 2024-03-22
 * added 🎷[lydia portrait](https://lyd.city/) to my 💚[people]({% link _pages/people.md %}) page
 </article>

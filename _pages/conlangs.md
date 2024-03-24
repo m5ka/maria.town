@@ -8,6 +8,7 @@ menu: pages
 i make languages (known as [conlangs](https://en.wikipedia.org/wiki/Constructed_language)) and often little counterpart lands for them to live in
 
 ## a priori
+* 🐸[riyan]({% link _pages/conlangs/riyan.md %}) - my main language, part of a collaborative family
 * 🌾[otisil]({% link _pages/conlangs/otisil.md %}) – minimalist language spoken on an agrarian archipelago
 * 🍵[zadmáh]({% link _pages/conlangs/zadmah.md %}) ─ derivationally expressive lang spoken by a hierarchical, taboo-based culture
 * 🎤[namelang]({% link _pages/conlangs/namelang.md %}) ─ just a naming conlang, really
@@ -21,6 +22,5 @@ i make languages (known as [conlangs](https://en.wikipedia.org/wiki/Constructed_
 ## graveyard
 in probably typical conlanger fashion, behind the above neat little listing stands a colossal graveyard of discarded conlangs. these are a few of the ex-langs that stick in my mind still
 
-* riyan ─ one of my oldest langs, aka psuedo-celtic mess
 * áucist ─ my first attempt at a polysynthetic lang
 * nkim coʻ ─ minimalist village language
