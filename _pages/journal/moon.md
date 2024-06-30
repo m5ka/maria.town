@@ -47,9 +47,9 @@ i offered to hréðe this morning, sort of the first time i've done it properly.
 
 <article markdown="1">
 ## 2022-08-18 14:33· lake of kalandra 🕹️ {#article:2022-08-18-lake-of-kalandra}
-tomorrow is the start of the lake of kalandra league of [path of exile](https://www.pathofexile.com/) and i'm quite excited. it's one of the things me and my wife play together and we do it every league, so it becomes one of our favourite times in the calendar.
+tomorrow is the start of the lake of kalandra league of [path of exile](https://www.pathofexile.com/) and i'm quite excited. it's one of the things me and my partner play together and we do it every league, so it becomes one of our favourite times in the calendar.
 
-as per tradition, i'll be playing an aurabot (meaning i just make big swirly patterns around myself that give my wife all the extra boosts and boons she needs to go mashing and smashing!)
+as per tradition, i'll be playing an aurabot (meaning i just make big swirly patterns around myself that give my partner all the extra boosts and boons she needs to go mashing and smashing!)
 
 i really just can't wait. i've got some time off work and we'll be able to really say goodbye to the very stressful period we had a couple weeks back. everything's really looking up. 🥰
 </article>
