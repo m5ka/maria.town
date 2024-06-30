@@ -7,6 +7,8 @@ menu: shrines
 ---
 my belly thinks food is great and so do i.
 
+if you want to see what i eat more often, check out my [moku.blog profile](https://moku.blog/user/maria)!
+
 ## special dishes
 these are my favourite special dishes. i cook these more rarely either when me and my partner are in the mood for them or with guests. a lot aren't particularly difficult, they just take longer or use special ingredients we don't usually have in.
 * [crispy fried tofu in chilli sauce]({% link _pages/food/crispy-tofu.md %})
