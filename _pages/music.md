@@ -12,14 +12,23 @@ i mostly make remixes that aren't that good but you're welcome to listen on [sou
 ---
 
 ## current obsession
-dang - caroline polachek (2023)
+show me what - ag cook (2020)
 
-<iframe width="420" height="233" src="https://www.youtube.com/embed/UX5ahM24o8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="420" height="233" src="https://www.youtube.com/embed/pWEosXQGG2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
 ## my favourite artists & songs
 
+* [ag cook](https://agcook.bandcamp.com/) <span class="review-stars">★★★★★</span>
+    * [beautiful](https://www.youtube.com/watch?v=YG0ggHM1PLM)
+    * [britpop](https://www.youtube.com/watch?v=kmhvFpsjLi8)
+    * [show me what](https://www.youtube.com/watch?v=pWEosXQGG2w)
+* [alice phoebe lou](https://www.alicephoebelou.com/) <span class="review-stars">★★★★★</span>
+    * [dusk](https://www.youtube.com/watch?v=5v4yK2Ae9Sw)
+    * [glow](https://www.youtube.com/watch?v=UGHp9QLCjGk)
+    * [mother's eyes](https://www.youtube.com/watch?v=_WYEh48NGMY)
+    * [galaxies](https://www.youtube.com/watch?v=KvYEsfVZxnI)
 * [arca](https://arca1000000.com/) <span class="review-stars">★★★★★</span>
     * [rakata](https://www.youtube.com/watch?v=ykY6st2vw8A)
     * [my 2](https://www.youtube.com/watch?v=NZXB5H1SeVA)
@@ -29,6 +38,13 @@ dang - caroline polachek (2023)
   * [amanaemonesia](https://www.youtube.com/watch?v=98XRKr19jIE) (as part of [chairlift](https://en.wikipedia.org/wiki/Chairlift_(band)))
   * [sunset](https://www.youtube.com/watch?v=-YBP-D6vQIA)
   * [so hot you're hurting my feelings](https://www.youtube.com/watch?v=sn3cHUtNZKo)
+* [charli xcx](https://www.charlixcx.com/) <span class="review-stars">★★★★★</span>
+    * [365](https://www.youtube.com/watch?v=Ol9CCM240Ag)
+    * [detonate](https://www.youtube.com/watch?v=f-NS9hnmWN4)
+    * [forever](https://www.youtube.com/watch?v=TbJE-KVZvTA)
+    * [guess](https://www.youtube.com/watch?v=NfHhsB5V6Tc)
+    * [next level charli](https://www.youtube.com/watch?v=8mhfE_vzwjo)
+    * [von dutch](https://www.youtube.com/watch?v=cwZ1L_0QLjw)
 * [dj sabrina the teenage dj](https://djsabrinatheteenagedj.bandcamp.com/) <span class="review-stars">★★★★★</span>
     * [new year's resolution](https://www.youtube.com/watch?v=puIdOaOWHg0)
     * [you might be surprised to find yourself singing it right now](https://www.youtube.com/watch?v=AdZZVY0kWIs)
@@ -38,23 +54,16 @@ dang - caroline polachek (2023)
     * [psychobabble](https://www.youtube.com/watch?v=B5bul5HwCQY)
     * [hear me out](https://www.youtube.com/watch?v=tw0wLOOGerc)
     * [maddening shroud](https://www.youtube.com/watch?v=XLo_Fq4xpvs)
-* [nomark](https://aseben.wtf/)<span class="review-stars">★★★★★</span>
+* [nomark](https://aseben.wtf/) <span class="review-stars">★★★★★</span>
     * [naprej](https://www.youtube.com/watch?v=Mt74zmiwiLw)
     * [nokia sms (w/ okniino)](https://www.youtube.com/watch?v=Gb3kjI91w1M)
     * [spet zaspan](https://www.youtube.com/watch?v=Z6x20svUgVs)
 * [sophie](http://msmsmsm.com/) <span class="review-stars">★★★★★</span>
-    * [faceshopping](https://www.youtube.com/watch?v=lZ6ppVyWgCI)
     * [bipp](https://www.youtube.com/watch?v=MVc3Z-bG6Eo)
-    * [hard](https://www.youtube.com/watch?v=V8fwWZD159k)
+    * [faceshopping](https://www.youtube.com/watch?v=lZ6ppVyWgCI)
+    * [immaterial](https://www.youtube.com/watch?v=_LFxr2bUEUY)
+    * [just like we never said goodbye](https://www.youtube.com/watch?v=6Z3N79ktprw)
     * [not okay](https://www.youtube.com/watch?v=nOuFlKBb9Y0)
-* [turbo lyd 2000](https://soundcloud.com/xtremelydtime2020) <span class="review-stars">★★★★★</span>
-    * [reconstitution](https://soundcloud.com/xtremelydtime2020/reconstitution)
-    * [this machine kills dmca workers](https://soundcloud.com/xtremelydtime2020/this-machine-kills-dmca-workers-bladee-sematary-dj-billybool-suicideboys-fka-twigs-remix)
-* [alice phoebe lou](https://www.alicephoebelou.com/) <span class="review-stars">★★★★</span>
-    * [dusk](https://www.youtube.com/watch?v=5v4yK2Ae9Sw)
-    * [glow](https://www.youtube.com/watch?v=UGHp9QLCjGk)
-    * [mother's eyes](https://www.youtube.com/watch?v=_WYEh48NGMY)
-    * [galaxies](https://www.youtube.com/watch?v=KvYEsfVZxnI)
 * [björk](https://bjork.com/) <span class="review-stars">★★★★</span>
     * [venus as a boy](https://www.youtube.com/watch?v=7Z5aPaDwAkU)
     * [hyperballad](https://www.youtube.com/watch?v=6CSiU0j_lFA)
